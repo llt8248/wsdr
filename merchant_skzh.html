@@ -6,10 +6,9 @@
 	<meta name="description" content="描述" />
 	<meta name="keywords" content="关键字" />
 	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/master_item_css/master_menu.css">
-	<link rel="stylesheet" href="css/master_item_css/master_txsf.css">
+	<link rel="stylesheet" href="css/merchant_item_css/merchant_menu.css">
+	<link rel="stylesheet" href="css/merchant_item_css/merchant_skzh.css">
 	<script language="javascript" src="scripts/jquery-1.11.3.min.js"></script>
-	<script language="javascript" type="text/javascript" src="scripts/laydate/laydate.js"></script>
 
 </head>
 
@@ -45,76 +44,48 @@
 				<div class="menu_item">
 					<span class="item_title">活动首页</span>
 					<ul>
-						<li class="page-sel"><a href="master.html">我的活动</a></li>
+						<li class="page-sel"><a href="merchant.html" >我的活动</a></li>
 					</ul>
 					<div class="clear"></div>
 				</div>
 				<div class="menu_item">
-					<span class="item_title">达人档案</span>
+					<span class="item_title">商户档案</span>
 					<ul>
-						<li><a href="master_zhxx.html" >个人资料</a></li>
-						<li><a href="master_zmt.html" >自媒体信息</a></li>
-						<li><a href="master_txsf.html" >身份头衔</a></li>
-						<li><a href="master_zcxq.html" >专长爱好</a></li>
+						<li><a href="merchant_zhxx.html" target="ifrPage">商户资料</a></li>
+						<li><a href="merchant_shrz.html" target="ifrPage">商户认证</a></li>
 					</ul>
 					<div class="clear"></div>
 				</div>
-		
 				<div class="menu_item">
 					<span class="item_title">交易管理</span>
 					<ul>
-						<li><a href="master_skzh.html" target="ifrPage">收款账号</a></li>
-						<li><a href="master_jymx.html" target="ifrPage">收款明细</a></li>
+						<li><a href="merchant_skzh.html" target="ifrPage">收款账户</a></li>
+						<li><a href="merchant_jymx.html" target="ifrPage">收款明细</a></li>
 					</ul>
 					<div class="clear"></div>
 				</div>
 				<div class="menu_item">
-					<span class="item_title">账户管理</span>
+					<span class="item_title">账呈管理</span>
 					<ul>
 						<li><a href="master_zhaq.html" target="ifrPage">安全设置</a></li>
-						<li><a href="master_dsfdl.html" >授权绑定</a></li>
+						<li><a href="merchant_dsfdl.html" target="ifrPage">授权绑定</a></li>
 					</ul>
 					<div class="clear"></div>
 				</div>
-
 				<div class="menu_item">
 					<span class="item_title">我的消息</span>
 					<ul>
-						<li><a href="master_wdxx.html" target="ifrPage">消息列表</a></li>
+						<li><a href="merchant_wdxx.html" target="ifrPage">消息列表</a></li>
 					</ul>
 					<div class="clear"></div>
 				</div>
+				<div class="clear"></div>
 			</div>
 			
-			<div class="master_txsf">
-				<div class="title">选择您的头衔身份</div>
-				<form name="reply"  method="post" > 
-					<div class="cont1">
-						<div><input name="Fruit" type="checkbox" value="" />携程旅行家 </div> 
-						<div><input name="Fruit" type="checkbox" value="" />携程问答专家</div> 
-						<div><input name="Fruit" type="checkbox" value="" />百度旅游达人</div> 
-						<div><input name="Fruit" type="checkbox" value="" />百度行程咨询师</div>
-						<div><input name="Fruit" type="checkbox" value="" />艺龙旅行专家</div> 
-						<div><input name="Fruit" type="checkbox" value="" />马峰窝旅行家</div> 
-						<div><input name="Fruit" type="checkbox" value="" />新浪名博</div> 
-						<div><input name="Fruit" type="checkbox" value="" />去哪儿聪明旅行家</div> 
-						<div><input name="Fruit" type="checkbox" value="" />穷游网最佳作者</div> 
-						<div><input name="Fruit" type="checkbox" value="" />酷讯旅游体验师</div> 
-						<div><input name="Fruit" type="checkbox" value="" />驴妈妈旅游达人</div> 
-						<div><input name="Fruit" type="checkbox" value="" />欣欣网旅行专家</div>  
-						<div class="clear"></div>
-					</div>
-					<div class="cont2">
-						<div><input name="Fruit" type="checkbox" value="" />华盖创意签约摄影师</div> 
-						<div><input name="Fruit" type="checkbox" value="" />CFP签约摄影师</div> 
-						<div><input name="Fruit" type="checkbox" value="" />视图网签约摄影师</div> 
-						<div><input name="Fruit" type="checkbox" value="" />中国摄影师协会会员</div> 
-						<div><input name="Fruit" type="checkbox" value="" />新华社签约摄影师</div>  
-					</div>
-					<div class="clear"></div>
-					<input type="submit" value="保存" class="but" >
-				</form> 
-			</div> 
+			<div class="master_skzh">
+				<div class="title">商家支付的活动奖金将通过“我是达人”平台支付到您的账户上</div>
+				<a href="master_skzh_add.html">添加收款人账户</a>
+			</div>
 			<div class="clear"></div>
 		</div>
 	</div>
@@ -192,26 +163,5 @@
 		<div class="text">粤ICP备14100486号-3/粤ICP备14100486号-2</div>
 	</div>
 
-
-	<!--遮罩层-->
-	<div id="zz"></div>
-
-	<!-- 弹窗 -->
-	
-	<script>
-		!function(){
-
-		//laydate.skin('molv');
-
-		laydate({
-		   elem: '#hd_start'
-		})
-
-		laydate({
-		   elem: '#hd_end'
-		})
-
-		}();
-	</script>
 </body>
 </htmel>
