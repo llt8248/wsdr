@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+body { background-color: #F0F0F5;}
+
+/*标题和图片按钮背景*/
+.header_warp { background-color: #000;}
+.header_bg { background-image: url(../images/list_title_bg.jpg);  background-size: 1920px 360px; max-width: 100%; height: 360px; background-position: center 0; margin-top: 70px;}
+
+/*流程图*/
+.flow { width: 1100px; height: 80px; margin-top: 30px; margin-bottom: 30px; margin-left: auto; margin-right: auto;}
+.flow .flow_bg { width: 1100px; height: 60px;}
+.flow .flow_bg .flow_bg_dq {  background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: -14px -266px; height:48px; width:411px; float: left; }
+.flow .flow_bg .flow_bg_hx { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: -423px -315px; height:48px; width:680px; float: left;}
+.flow  .flow_text { width: 1100px; height: 20px; }
+.flow  .flow_text div { float: left; width: 157px; text-align: center;}
+
+/*酒店详情*/
+.hotel_details { min-width: 985px; max-width: 1100px; height: 100%; margin-left: auto; margin-right: auto; margin-top: 20px; padding-top: 25px; padding-bottom: 25px; background-color: #fff;  border: 1px solid #d1d1d5;}
+.hotel_details img { float: left; width: 338px; height: 467px; margin-left: 25px;}
+.hotel_details .cont { float: left; margin-left: 60px; width: 598px; color: #676767; line-height: 30px;}
+.hotel_details .cont h1 {font-size: 20px; line-height: 36px; color: #000;}
+.hotel_details .cont em { font-size: 27px; color: #FFA30C; font-weight: bold;}
+.hotel_details .cont hr { height: 1px; border: none; border-top: 1px dotted #999; margin-bottom: 25px; margin-top: 25px;}
+.hotel_details .cont div { margin-top: 10px; height: 30px;}
+.hotel_details .cont a { display: block; width: 224px; line-height: 41px; color: #fff; background-color: #FFA30C; text-align: center; margin-top: 30px; transition: 0.3s;}
+.hotel_details .cont a:hover { background-color: #ffbb0e;}
+.hotel_details .cont .star  p { float: left;}
+
+
+/*酒店介绍*/
+.hotel_cent {  min-width: 885px; max-width: 1000px; height: 100%; margin-left: auto; margin-right: auto; margin-top: 20px; padding-top: 25px; padding-left: 50px; padding-right: 50px; padding-bottom: 25px; background-color: #fff; border: 1px solid #d1d1d5;}
+.hotel_cent .cent_st1 { margin-top: 40px;}
+.hotel_cent .cent_st1 b {border-bottom: 2px solid #000; line-height: 35px;}
+.hotel_cent .cent_st1 p { color: #676767; font-size: 15px; line-height: 30px;}
+.hotel_cent .cent_st1 img { margin-top: 40px; width: 100%; height: 100%; }
+.hotel_cent .cent_st1 div { color: #999; text-align: center; line-height: 40px;}
+.hotel_cent .cent_st1 em { color: #FFA30C; margin: 0 10px;}
+
+/*报名活动*/
+.cent_st2 { margin-bottom: 10px;}
+.winner_more { display: block; float: right; font-size: 12px;}
+.winner_more a { color: #404040;}
+.winner_more a:hover { text-decoration: underline;}
+.hotel_cent .cent_st2 { height: 150px; margin-top: 50px; padding-top: 20px; border-top: 1px dotted #848484; overflow: hidden;}
+.hotel_cent .cent_st2 img { width: 60px; height: 60px; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; margin-top: 20px; margin-right: 10px; margin-bottom: 20px;}
+.hotel_cent .cent_st2 em { color: #FFA30C; margin: 0 10px; font-size: 26px; font-weight: bold;}
+.hotel_cent .cent_st3 { height: 154px; margin-top: 10px;overflow: hidden;}
+.hotel_cent .cent_st3 img { width: 60px; height: 60px; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; margin-top: 20px; margin-right: 10px; margin-bottom: 20px;}
+.hotel_cent .cent_st3 em { color: #FFA30C; margin: 0 10px; font-size: 26px; font-weight: bold;}
+.bot_btn { margin: 0 auto; width: 244px; margin-top: 60px; margin-bottom: 60px;}
+.bot_btn a { line-height: 35px; color: #fff; background-color: #FFA30C; text-align: center; padding: 10px 80px; transition: 0.5s;}
+.bot_btn a:hover { background-color: #ffbb0e; }
+
+/*其它活动推荐*/
+.other { min-width: 985px; max-width: 1100px; margin-top: 40px; height: 100%; margin-left: auto; margin-right: auto;}
+.popular_bg { min-width: 985px; max-width: 1100px; height: 100%; position: relative; margin-bottom: 100px; text-align: center; margin-left: auto; margin-right: auto;}
+.popular_bg .popular_item { width: 25%; float: left;  margin-top: 20px; }
+.popular_bg .popular_item .bg { width: 94%; height: 90%; background-color: #fff; position: relative; padding-top: 2%; padding-bottom: 2%; box-shadow: 0px 2px 3px #e5e5e9; border: 1px solid #d6d6db;}
+.popular_bg .popular_item .bg  img { width: 96%; height: 96%; }
+.popular_bg .popular_item .popular_text_bg { width: 95.9%; height: 40px; background-color: #000;  margin-top: -40px; margin-left: 2.1%; filter:alpha(opacity=50); -moz-opacity:0.5; opacity:0.5;}
+.popular_bg .popular_item .popular_text { width: 190px; height: 20px; color: #fff; position: relative; margin-top: -37px;  text-align: left; margin-left: 4%; font-size: 14px;}
+
+/*热门活动 星级设置*/
+.popular_star { width: 155px; line-height: 30px; text-align: center; margin-top: 30px; margin-left: auto; margin-right: auto; }
+.popular_star p { font-size: 14px; float: left;}
+.yellow_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: 0px -43px; height:15px; width:17px; display: block; float: left; margin-top: 9px;}
+.grey_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: -20px -43px; height:15px; width:17px; display: block; float: left; margin-top: 9px;}
+
+
+/*
+*{border:1px solid #999;}*/

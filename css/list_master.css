@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/*标题和图片按钮背景*/
+.header_warp { background-color: #000;}
+.header_bg { background-image: url(../images/list_master_hd_bg.jpg); text-align: center; background-size: 1920px 360px; max-width: 100%; height: 360px; background-position: center 0; margin-top: 70px;}
+.header_bg p { color: #fff; width: 985px; line-height: 40px; margin-left: auto; margin-right: auto; padding-top: 120px; font-size: 22px; font-weight: bold;}
+
+/*选择框*/
+.select_warp { width: 100%; height: 76px; border-bottom: 1px solid #d8d8dc;}
+.select_box { min-width: 985px; max-width: 1100px;  margin-left: auto; margin-right: auto; padding-top: 22px; position: relative;}
+.select_sex { float: left; width: 250px; height: 30px;}
+.sex_item { width: 180px; height: 30px;}
+
+.select_address { float: left; width: 400px; height: 30px; margin-left: 40px;}
+.address_item1 { width: 180px; height: 30px;}
+.address_item2 { width: 100px; height: 30px; margin-left: 10px;}
+
+.select_specialty { float: left; width: 190px; margin-left: 30px;}
+.specialty_item { width: 120px; height: 30px;}
+
+/*列表*/
+.popular { background-color: #F0F0F5; width: 100%; height: 100%; padding-bottom: 50px;}
+.popular .list { min-width: 985px; max-width: 1150px; height: 100px; margin-left: auto; margin-right: auto; padding-top: 20px; }
+.people_profile { width: 480px; height: 130px; background-color: #fff; float: left; padding: 20px; margin-top: 30px; margin-left: 38px; border: 1px solid #dfdfe4; box-shadow: 0px 3px #dfdfe4; -webkit-box-shadow: 0px 3px #dfdfe4; -moz-box-shadow: 0px 3px #dfdfe4;}
+.people_profile img { width: 100px; height: 100px; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; margin-left: 10px; float: left; border: 3px solid #ffa30c; margin-top: 10px;}
+.people_profile div { width: 70%; height: 20px;margin-left: 20px; margin-top: 10px; float: left; text-align: left; font-size: 13px; }
+.people_profile div b {margin-right: 5px; font-size: 16px;}
+.people_profile div p {  margin-right: 10px; color: #818187; font-size: 13px; line-height: 26px; height: 80px; overflow: hidden;}
+
+/*分页*/
+.page-warp {padding-bottom: 50px;text-align:center;margin-top: 50px;}
+.page-warp a{display:inline-block; padding:6px 12px;border:1px solid #d8d8dc;}
+.page-lock{color:#999; background: #fff;}
+.page-active{color:#555; background: #fff}
+.page-point{color:#334652;display:inline-block;padding:5px 10px;}
+.page-sel{color:#FFF;background:#ffa30c;}
+.page-active:hover{color:#ffa30c; border: 1px solid #ffa30c;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**{border:1px solid #999;}*/

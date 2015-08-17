@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.master_txsc { width: 770px; height: auto; background-color: #fff; border: 1px solid #999; float: right; padding-bottom: 30px;}
+
+.master_txsc .title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 14px;}
+
+.master_txsc .cont1 { margin-top: 20px; margin-left: 20px; width: 390px; height: 388px; text-align: center; background-color: #F0F0F5; float: left; font-size: 14px;}
+.master_txsc .cont1 button { background-color: #fff; border:1px solid #d1d1d5; display: inline-block; width: 100px; height: 25px; margin-top: 150px; margin-bottom: 10px; font-size: 12px; color: #555;}
+.master_txsc .cont1 button span { color: #FFA30C; font-size: 14px; font-weight: bold;}
+.master_txsc .cont1 p { color: #666; font-size: 12px;}
+.upload_warp { margin-top: 20px;}
+.upload_warp span { color: #FFA30C; font-size: 14px;}
+.sc_btn { background-color: #fff; border:1px solid #d1d1d5; display: inline-block; width: 100px; height: 25px; font-size: 12px; color: #555; margin-left: 20px;}
+.master_txsc em { color: #666; font-size: 12px;}
+.master_txsc .cont2 { margin-top: 20px; margin-left: 20px; text-align: left; width: 300px; height: 388px; float: right;}
+.master_txsc .cont2 .big_bg { width: 240px; height: 230px; text-align: center; font-size: 12px; color: #666;}
+.master_txsc .cont2 .big_bg img { width: 240px; height: 240px; margin-bottom: 10px;}
+.master_txsc .cont2 .cont_bg { width: 60px; height: 90px; text-align: center; font-size: 12px; margin-top: 60px; float: left; color: #666;}
+.master_txsc .cont2 .cont_bg img { width: 60px; height: 60px; margin-bottom: 10px;}
+.master_txsc .cont2 .small_bg { width: 60px; height: 60px; text-align: center; font-size: 12px; margin-top: 80px; float: left; margin-left: 40px; color: #666;}
+.master_txsc .cont2 .small_bg img { width: 40px; height: 40px; margin-bottom: 10px;}
+.btn_warp { width: 770px; clear: both; padding-top: 20px;}
+.btn_ok { width: 92px; height: 32px; background:#FFA30C; line-height: 32px; text-align: center; color: #fff; font-size: 14px; cursor: pointer; float: left; margin-left: 20px;}
+.btn_cancel { width: 90px; height: 30px; background:#fff; line-height: 32px; text-align: center; color: #FFA30C; border: 1px solid #FFA30C; font-size: 14px; cursor: pointer; float: left; margin-left: 15px;}

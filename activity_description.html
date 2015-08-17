@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>我是达人</title>
+	<meta name="description" content="描述" />
+	<meta name="keywords" content="关键字" />
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/activity_description.css">
+	<script language="javascript" src="scripts/jquery-1.11.3.min.js"></script>
+	<script language="javascript" type="text/javascript" src="scripts/laydate/laydate.js"></script>
+
+
+
+</head>
+
+<body>
+	<!--导航-->
+	<div class="header_warp">
+		<div class="header">
+			<div class="logo">
+				<img src="images/logo.png" />
+			</div>
+			<div class="title">我是达人</div>
+			<div class="nav-bar">
+				<ul>
+					<li>
+						<a href="index.html" target="_parent" >登录</a>
+					</li>
+					<li>
+						<a href="#" target="_parent">注册</a>
+					</li>
+					<li>
+						<a href="#" target="_parent">帮助</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--列表-->
+	<div class="centre_bg">
+		<div class="activity_gc">
+			<div class="bg_1">1.描述活动</div>
+			<div class="bg_2">2.选择方案</div>
+			<div class="bg_3">3.提交活动</div>
+			<div class="bg_4">4.托管活动金</div>
+		</div>
+		<div class="clear"></div>
+		<div class="cont">
+			<div class="item_hd">
+				<ul>
+					<li><em>活动标题：</em><input type="text" class="w_title"></li>
+					<li><em>酒店名：</em><input type="text" class="w_name"></li>
+					<li>
+						<div class="popular_star">
+							<em>酒店星级：</em>
+							<span class="yellow_star"></span>
+							<span class="yellow_star"></span>
+							<span class="yellow_star"></span>
+							<span class="yellow_star"></span>
+							<span class="grey_star"></span>
+							<div class="clear"></div>
+						</div>
+					</li>
+					<li><em>活动时间：</em><input class="laydate-icon" type="text" id="hd_start" placeholder=" 开始日期" /> — <input class="laydate-icon" type="text" id="hd_end" placeholder=" 结束时间" />
+					</li>
+					<li><em>体验项目：</em><input type="text" class="w_xm"></li>
+					<li><em>报名时间：</em><input class="laydate-icon" type="text" id="bm_start" placeholder=" 开始日期" /> — <input class="laydate-icon" type="text" id="bm_end" placeholder=" 结束时间" />
+					</li>
+				</ul>
+			</div>
+			<div class="zttp">
+				<div class="zttp_bg">
+					<div class="zttp_bg_t"></div>
+				</div>
+				<button><span class="btn_bg"></span>上传主题图片</button>
+			</div>
+			<div class="clear"></div>
+			<div class="jdjs">
+				<head>酒店介绍：</head><br>
+				<textarea name="cont"  class="text" rows="3" placeholder=" 说点什么..." style="overflow-y:hidden" ></textarea>
+				<p>案例：上海外滩英迪格酒店不仅坐拥浦江两岸传统与现代并蓄的秀丽风光，更为宾客提供高端精品酒店的住宿体验，强调随和亲密的服务、反映当地人文的个性化设计以及为顾客提供今日上海新旧融合的体验。</p>
+				<div class="clear"></div>
+			</div>
+
+			<div class="jdjs">
+				<head>交通指引：</head><br>
+				<textarea name="cont"  class="text" rows="3" placeholder=" 说点什么..." style="overflow-y:hidden" ></textarea>
+				<p>案例：上海外滩英迪格酒店位于黄浦区中山东二路585号(近东门路），可乘坐地铁5号线在外滩站下。可乘坐地铁3号线在中山东路，B出口前行500米。</p>
+				<div class="clear"></div>
+			</div>
+			<div class="jdjs">
+				<head>备注说明：</head><br>
+				<textarea name="cont"  class="text" rows="3" placeholder=" 说点什么..." style="overflow-y:hidden" ></textarea>
+				<p>案例：上海外滩英迪格酒店兼收并蓄，完美融合了真实现代的设计特点与传统的中国元素，在创造灵动有趣的环境同时，又巧妙地将与众不同的</p>
+				<div class="clear"></div>
+			</div>
+
+			<div class="jdbgsc">
+				<head>酒店图片上传：</head>
+				<div class="jdbgsc_item">
+					<button><span class="btn_bg"></span>上传主题图片</button>
+					<div class="jd_bg">
+						<div class="jd_bg_t"></div>
+					</div>
+					<input type="text" class="bg_text" placeholder=" 图片说明，20字以内">
+				</div>
+				<div class="jdbgsc_item">
+					<button><span class="btn_bg"></span>上传主题图片</button>
+					<div class="jd_bg">
+						<div class="jd_bg_t"></div>
+					</div>
+					<input type="text" class="bg_text" placeholder=" 图片说明，20字以内">
+				</div>
+				<div class="jdbgsc_item">
+					<button><span class="btn_bg"></span>上传主题图片</button>
+					<div class="jd_bg">
+						<div class="jd_bg_t"></div>
+					</div>
+					<input type="text" class="bg_text" placeholder=" 图片说明，20字以内">
+				</div>
+
+			</div>
+
+			<div class="go_btn"><a href="">下一步</a></div>
+		</div>
+	</div>
+
+
+	<!--合作链接-->
+	<div class="cooperative_link"><div class="cooperative_link_vice">
+		<!--联系我们-->
+		<div class="cooperative_link_item">
+			<div class="contact_us">
+				<div class="title"><b>联系我们</b></div>
+				<div class="icon">
+					<ul>
+						<li><a href="#" class="qq"></a></li>
+						<li><a href="#" class="sina_Weibo"></a></li>
+						<li><a href="#" class="email"></a></li>
+						<li><a href="#" class="Fax"></a></li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="qr_codes"></div>
+				<div class="text">关注我是达人公众账号</div>
+			</div>
+		</div>
+		<!--相关信息-->
+		<div class="cooperative_link_item">
+		<div class="information">
+			<ul>
+				<li><b>相关信息</b></li>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">服务项目</a></li>
+				<li><a href="#">工作机会</a></li>
+				<li><a href="#">媒体报道</a></li>
+				<li><a href="#">法律声明</a></li>
+				<li><a href="#">支持帮助</a></li>
+			</ul>
+		</div>
+		</div>
+		<!--合作品牌-->
+		<div class="cooperative_link_item">
+		<div class="information">
+			<ul>
+				<li><b>合作品牌</b></li>
+				<li><a href="#">万豪酒店</a></li>
+				<li><a href="#">深圳希尔顿</a></li>
+				<li><a href="#">三亚喜来登</a></li>
+				<li><a href="#">杭州安曼</a></li>
+				<li><a href="#">昆明洲际酒店</a></li>
+				<li><a href="#">新加坡金沙</a></li>
+			</ul>
+		</div>
+		</div>
+		<!--意见反馈-->
+		<div class="cooperative_link_item">
+		<div class="feedback">
+			<div class="title"><b>意见反馈</b></div>
+			<form name="reply"  method="post" onsubmit="return validateForm();">
+				<input type="text" name="user_name" class="text" placeholder=" 您的姓名"   /><br />
+				<input type="email" class="text" name="user_email" placeholder=" 您的邮箱"  /><br />
+				<textarea name="cont"  class="text" rows="3" placeholder=" 说点什么..." style="overflow-y:hidden" ></textarea><br />
+				<input type="submit" class="but" value="提交" >
+			</form>
+		</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<!--我是分割线-->
+	<div class="line"></div>
+
+	<!--所有声明-->
+	<div class="don">
+		<div class="text">广州粉丝信息科技有限公司  © All Rights Reserved</div>
+		<div class="text">粤ICP备14100486号-3/粤ICP备14100486号-2</div>
+	</div>
+	<script>
+		!function(){
+
+		//laydate.skin('molv');
+
+		laydate({
+		   elem: '#hd_start'
+		})
+
+		laydate({
+		   elem: '#hd_end'
+		})
+		laydate({
+		   elem: '#bm_start'
+		})
+
+		laydate({
+		   elem: '#bm_end'
+		})
+
+		}();
+	</script>
+</body>
+</htmel>

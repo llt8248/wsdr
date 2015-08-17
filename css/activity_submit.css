@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*标题和图片按钮背景*/
+.header_warp { background-color: #000;}
+
+/*用户中心*/
+.centre_bg { width: 100%; height: 1200px; background-color: #F0F0F5; margin-top: 70px;  padding-bottom: 100px;}
+
+.centre_bg .activity_gc { width: 1000px; margin:0 auto;}
+.centre_bg .activity_gc div { float: left; text-align: center; line-height: 35px; margin-top: 40px;}
+.centre_bg .activity_gc .bg_1 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -7px -222px; height:35px; width:250px; color: #767676;}
+.centre_bg .activity_gc .bg_2 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -257px -222px; height:35px; width:250px; color: #767676;}
+.centre_bg .activity_gc .bg_3 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -507px -187px; height:35px; width:250px; color: #fff;}
+.centre_bg .activity_gc .bg_4 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -757px -222px; height:35px; width:250px; color: #767676;}
+
+.cont { width: 1000px; height: 1040px; margin:0 auto; background-color: #fff; margin-top: 40px; border-top: 3px solid #FFA30C; }
+.cont .activity { width: 800px; margin-top: 50px; margin-left: 40px;}
+.cont .activity img { width: 240px; height: 332px; float: left;}
+.cont .activity .hotel_itme { width: 500px; float: left; margin-left: 40px;}
+.cont .activity .hotel_itme li { line-height: 60px;}
+.cont .activity .hotel_itme li em { width: 100px; text-align: right; display: inline-block;}
+.cont .activity .sm { width: 860px; height: 120px; margin-top: 30px; font-size: 14px; border-bottom: 1px solid #f0f0f1; color: #404040;}
+.cont .activity .sm p { line-height: 25px;}
+.cont .btn_xg a { display: inline-block; width: 120px; height: 30px; text-align: center; line-height: 30px; border: 1px solid #999; margin-top: 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px;}
+
+
+.popular_star { width: 255px; line-height: 45px; text-align: center; }
+.popular_star em { float: left;}
+.popular_star .yellow_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: 0px -43px; height:15px; width:17px; display: block; float: left; margin-top: 16px; }
+.popular_star .grey_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: -20px -43px; height:15px; width:17px; display: block; float: left; margin-top: 16px;}
+
+
+
+.cont .moeny { width: 860px;  margin-top: 30px; margin-left: 30px; }
+.cont .moeny .fa_fw { width: 860px; border: 1px solid #ededf0; background-color: #f7f7fc; height: 120px;}
+.cont .moeny div { padding-left: 30px; margin-top: 20px;}
+.cont .moeny div span { color: #FFA30C; margin-right: 20px;}
+.cont .moeny div a { width: 120px; height: 30px; line-height: 30px; border: 1px solid #999; -webkit-border-radius: 5px; -moz-border-radius: 5px; background-color: #fff; float: right;  margin-right: 20px; display: inline-block; text-align: center; }
+.cont .moeny .zj { text-align: right; line-height: 30px; margin-top: 30px;}
+.cont .moeny .zj em { font-size: 25px; color: #FFA30C;}
+
+.cont .go_btn { width: 930px; height: 50px; margin-top: 70px; margin-left: 30px; text-align: center;}
+.cont .go_btn a { width: 220px; height: 35px; line-height: 35px; background-color: #FFA30C; color: #fff; display: inline-block; text-align: center; }

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.master_skzh_show { width: 770px; height: auto;  background-color: #fff; border: 1px solid #999; float: right; padding-bottom: 30px;  }
+.master_skzh_show .page_title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 15px; width: 100%;}
+.master_skzh_show .hint { width: 710px; height: 50px; line-height: 50px; text-indent: 2em; background-color: #FFFDF6; margin-left: 30px; margin-right: 30px; border: 1px solid #FFA30C; margin-top: 20px;}
+.master_skzh_show .yzzp_cont { width: 100%; margin-left: 30px; margin-right: 30px; margin-top: 50px;}
+.yzzp_cont .menu {width: 710px; line-height: 40px; height;}
+
+.yzzp_cont .bank_cont { width: 710px; border:1px solid #d9d9e0; padding-bottom: 20px; z-index: 1; background-color: #f7f7fc;}
+.yzzp_cont .bank_cont .item { margin-left: 20px; line-height: 35px;margin-top: 15px;}
+.yzzp_cont .bank_cont .item em { display: inline-block; width: 120px; line-height: 30px; line-height: 30px; text-align: right;}
+.yzzp_cont .bank a { display: inline-block; width: 120px; height: 35px; line-height: 35px; text-align: center; border: 1px solid #999; margin-top: 40px; margin-left: 120px; -webkit-border-radius: 5px; -moz-border-radius: 5px;}
+
+
+/*
+*{ border: 1px solid red;}*/

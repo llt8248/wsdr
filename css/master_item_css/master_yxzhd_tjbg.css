@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.master_yxzhd_tjbg {  width: 770px; height: auto; padding-bottom: 30px; background-color: #fff; border: 1px solid #999; float: right; padding-bottom: 30px; }
+.master_yxzhd_tjbg .title { width: 710px; height: 100px; text-align: center; line-height: 100px; border-bottom: 1px dashed #999;  margin-left: 30px; color: #404040; font-size: 25px; font-weight: bold;}
+
+.tjyj { width: 710px; height: 300px; margin-left: 30px;margin-top: 35px;}
+.tjyj .tjyj_tile { width: 300px; margin-left: 20px; font-size: 14px;}
+.tjyj .yj_item { width: 670px; height: 35px; line-height: 35px; margin-left: 20px; margin-top: 20px; font-size: 14px;}
+.tjyj .yj_item .text1 { width: 400px; height: 35px;}
+.tjyj .yj_item .sub { background-color: #fff; border:1px solid #d1d1d5; width: 120px; height: 35px;  -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-left: 10px; color: #676767;}
+.tjyj .yj_cont { width: 710px; height: 125px; margin-top: 35px; font-size: 14px;}
+.tjyj .yj_cont table { border: 1px solid #dcdcdc; font-size: 14px;}
+.tjyj .yj_cont th { background-color: #F0F0F5; height: 35px;}
+.tjyj .yj_cont .w_1 { width: 150px;}
+.tjyj .yj_cont .w_2	{ width: 430px;}
+.tjyj .yj_cont .w_3 { width: 120px;}
+.tjyj .yj_cont td { height: 40px;}
+.tjyj .yj_cont td a { margin-left: 20px; font-size: 12px; color: #404040;}
+
+.sjt { width: 710px; height: 250px; margin-top: 50px; margin-left: 30px; font-size: 14px; }
+.sjt .sjt_title { margin-left: 20px; font-size: 14px; height: 35px; line-height: 35px;}
+.sjt .sjt_title button { float: right; margin-right: 30px; border:1px solid #d1d1d5; background-color: #fff; width: 120px; height: 35px; -webkit-border-radius: 5px; -moz-border-radius: 5px; color: #676767;}
+.sjt .sjt_bg { width: 710px; height: 190px; text-align: center; margin-top: 20px; }
+.sjt .sjt_bg .sjt_itme { float: left; width: 135px; height: 200px; margin-right: 20px; margin-left: 20px; line-height: 25px;}
+.sjt .sjt_bg .sjt_itme button { margin-right: 3px; margin-left: 3px; border:0px; background-color: #fff; font-size: 12px;}
+
+.hdsp { width: 710px; margin-left: 30px; margin-top: 50px;}
+.hdsp .hdsp_title { width: 710px; height: 30px; line-height: 30px; font-size: 14px;}
+.hdsp .ts { width: 700px; height: 30px; line-height: 30px; color: red; font-size: 14px; margin-left: 10px;}
+.hdsp .hdsp_line { width: 710px; height: auto; margin-top: 30px; font-size: 14px;}
+.hdsp .hdsp_line .line1 { width: 700px; margin-left: 10px; line-height: 35px; height: 35px;}
+.hdsp .hdsp_line .line1 input { height: 35px; width: 400px;}
+.hdsp .hdsp_line .line1 button { width: 120px; height: 35px; background-color: #fff; border:1px solid #d1d1d5; margin-left: 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px; color: #676767;}
+.hdsp .hdsp_line .cont { margin-left: 95px; width: 540px;}
+.hdsp .hdsp_line .cont .cont_item { height: 60px; line-height: 60px; font-size: 14px; border-bottom: 1px dashed #999; }
+.hdsp .hdsp_line .cont .cont_item a { margin-right: 295px; color: #337ab7;}
+.hdsp .hdsp_line .cont .cont_item a:hover { text-decoration: underline;}
+.hdsp .hdsp_line .cont .cont_item button { border:0px;  background-color: #fff; margin-right: 20px; margin-top: 20px; font-size: 12px; color: #404040;}
+
+.upbtn { width: 710px; height: 35px; margin-top: 50px; text-align: center;}
+.upbtn button { width: 120px; height: 35px; line-height: 35px; color: #fff; background-color: #FFA30C; border: 1px solid #FFA30C; -webkit-border-radius: 5px; -moz-border-radius: 5px;}

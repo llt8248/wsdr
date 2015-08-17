@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.master_zhxx_mail {  width: 770px; height: auto;  background-color: #fff; border: 1px solid #999; float: right; padding-bottom: 30px;}
+.master_zhxx_mail .page_cont { width: 340px; margin-top: 60px; margin-left: auto; margin-right: auto;}
+.master_zhxx_mail .page_cont  em { color: #444;}
+.master_zhxx_mail .page_cont .text1 { line-height: 35px; width: 240px;}
+.master_zhxx_mail .page_cont .bnt_bg { width: 210px; margin-top: 50px; margin-left: 80px; }
+.master_zhxx_mail .page_cont .bnt_bg .bnt { width: 210px; height: 40px; color: #fff; background-color: #FFA30C; border: 0px; }
+.master_zhxx_mail .page_cont .bnt_bg .bnt:hover { width: 210px; height: 40px; background-color: #ffbb0e; color: #fff;  border: 0px; }

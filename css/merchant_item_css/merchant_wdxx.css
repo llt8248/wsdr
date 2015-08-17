@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.merchant_wdxx { width: 770px; height: auto; float: right; border: 1px solid #999; background-color: #fff; padding-bottom: 30px; }
+.merchant_wdxx .title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 14px;}
+.xxlb { width: 710px; height: auto; margin-left: 30px; margin-top: 30px;}
+.xxlb .saixu { width: 100%; height: 40px; line-height: 35px; }
+.xxlb .saixu .province { width: 120px; margin-right: 20px; height: 35px; line-height: 35px;}
+.xxlb .saixu span { display: inline-block; border:1px solid #999; width: 400px; height: 35px;}
+.xxlb .saixu input { width: 300px; height: 35px; line-height: 35px; border: 0px;}
+.xxlb .saixu button { width: 90px;  height: 31px; font-size: 14px; background-color: #fff; border:1px solid #999; margin: 2px; float: right;}
+.xxlb .box { width: 710px; height: auto; margin-top: 10px; border: 1px solid #999; -webkit-border-radius: 5px; -moz-border-radius: 5px;}
+.xxlb .box .m-btns { width: 690px; height: 40px; border-bottom: 1px solid #999; background-color: #ddd; line-height: 40px; padding-left: 20px; font-size: 15px; }
+.xxlb .box .w-table { text-align: center;}
+.xxlb .box .w-table .m-item { width: 710px; border-bottom: 1px solid #999; }
+.xxlb .box .w-table .m-item .f-fl { float: left; height: 35px; line-height: 35px; background-color: #ddd; border-bottom: 1px solid #999;}
+.xxlb .box .w-table .m-item .col0 { width:90px; border-right: 1px solid #999;}
+.xxlb .box .w-table .m-item .col1 { width:350px; border-right: 1px solid #999;}
+.xxlb .box .w-table .m-item .col2 { width:160px; border-right: 1px solid #999;}
+.xxlb .box .w-table .m-item .col3 { width:107px;}
+.xxlb .box .w-table #content .d_item { background-color: #008800;}
+.xxlb .box .w-table #content .f-f2 { float: left; height: 35px; line-height: 35px;}
+.xxlb .box .w-table #content .col0 { width:90px;}
+.xxlb .box .w-table #content .col1 { width:350px;}
+.xxlb .box .w-table #content .col2 { width:160px;}
+.xxlb .box .w-table #content .col3 { width:107px;}
+.xxlb .box .w-table #content input {margin-top: 12px;}
+.xxlb .box .m-edit { height: 40px; line-height: 40px; background-color: #ddd;}
+.xxlb .box .m-edit input { margin-left: 20px;}
+.xxlb .box .m-edit a { margin-left: 20px;}

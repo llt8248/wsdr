@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>我是达人</title>
+	<meta name="description" content="描述" />
+	<meta name="keywords" content="关键字" />
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script language="javascript" src="scripts/jquery-1.11.3.min.js"></script>
+	<script language="javascript" src="scripts/index.js"></script>
+	<script language="javascript" src="scripts/login.js"></script>
+</head>
+
+<body>
+	<!--导航-->
+	<div class="header_warp">
+		<div class="header">
+			<div class="logo">
+				<img src="images/logo.png" />
+			</div>
+			<div class="title">我是达人</div>
+			<div class="nav-bar">
+				<ul>
+					<li>
+						<button id="goto_dl">登录</button>
+					</li>
+					<li>
+						<button id="goto_zc">注册</button>
+					</li>
+					<li>
+						<button>帮助</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--导航背景-->
+	<div class="title_bg"></div>
+
+	<!--导航图片轮播 -->
+	<div class="show_image">
+		<div id="frame_bg">
+			<div class="bg">
+				<ul>
+					<li class="li_bg_1">
+						<div class="bg_up_text">
+							<p class="text1">至臻完美 辉煌传奇</p>
+							<p class="text2">上海半岛酒店入住体验</p>
+							<p class="text3">上海半岛酒店是一家集住宿、餐饮商务、会议、旅游等服务为一体的五星级酒店。酒店拥有装修豪华、高雅、环境舒适的房间...</p>
+						</div>
+					</li>
+					<li class="li_bg_2">
+						<div class="bg_up_text">
+							<p class="text1">重振感官之旅</p>
+							<p class="text2">香港四季酒店入住体验</p>
+							<p class="text3">香港四季酒店是一家按标准五星级建造的酒店，也是香港中西区为数不多的五星级酒店品牌之一，香港四季酒店于2005年开业...</p>
+						</div>
+					</li>
+					<li class="li_bg_3">
+						<div class="bg_up_text">
+							<p class="text1">至臻完美 辉煌传奇</p>
+							<p class="text2">上海半岛酒店入住体验</p>
+							<p class="text3">上海半岛酒店是一家集住宿、餐饮商务、会议、旅游等服务为一体的五星级酒店。酒店拥有装修豪华、高雅、环境舒适的房间...</p>
+						</div>
+					</li>
+					<li class="li_bg_4">
+						<div class="bg_up_text">
+							<p class="text1">重振感官之旅</p>
+							<p class="text2">香港四季酒店入住体验</p>
+							<p class="text3">香港四季酒店是一家按标准五星级建造的酒店，也是香港中西区为数不多的五星级酒店品牌之一，香港四季酒店于2005年开业...</p>
+						</div>
+					</li>
+					<li class="li_bg_5">
+						<div class="bg_up_text">
+							<p class="text1">至臻完美 辉煌传奇</p>
+							<p class="text2">上海半岛酒店入住体验</p>
+							<p class="text3">上海半岛酒店是一家集住宿、餐饮商务、会议、旅游等服务为一体的五星级酒店。酒店拥有装修豪华、高雅、环境舒适的房间...</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--图片按钮背景-->
+		<div class="show_but_bg"> </div>
+		<div id="show_but">
+			<ul>
+				<li><img src="images/index_bn_1.jpg" ></li>
+				<li><img src="images/index_bn_2.jpg" ></li>
+				<li><img src="images/index_bn_1.jpg" ></li>
+				<li><img src="images/index_bn_2.jpg" ></li>
+				<li><img src="images/index_bn_1.jpg" ></li>
+			</ul>
+		</div>
+		<!--图片按钮背景-->
+		<div id="but_left"></div>
+		<dic id="but_right"></div>
+	</div>
+
+
+	<!--最新商户活动-->
+	<div class="new_activity">
+		<div class="title">最新商户活动</div>
+		<a href="#">
+			<div class="but">
+				<div class="icon"></div>
+				<div class="text">发布活动</div>
+			</div>
+		</a>
+		<div class="title_icon"></div>
+		<a href="#">
+			<div class="bg">
+			<img src="images/new_activity.jpg" class="imgs">
+			<div class="text_bg"> </div>
+			<div class="text">香港四季酒店免费试睡加豪华晚宴体验</div>
+		</div>
+		</a>
+	</div>
+
+	<!--热门活动-->
+	<div class="popular_activity">
+		<div class="title">热门活动</div>
+		<div class="title_icon"></div>
+		<div class="subtitle">带给你最美妙的酒店入住体验</div>
+
+		<!--图片-->
+		<div class="popular_bg" id="popular_bg">
+			<div class="popular_item">
+				<div class="bg">
+					<a href="#"><img src="images/popular_activity_1.jpg" ></a>
+					<div class="popular_text_bg"></div>
+				</div>
+
+				<div class="popular_text">杭州香格里拉尊贵总统套房</div>
+				<div class="popular_star">
+					<p>酒店星级：</p>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="grey_star"></span>
+					<div class="clear"></div>
+				</div>
+
+			</div>
+			<div class="popular_item">
+				<div class="bg">
+					<a href="#"><img src="images/popular_activity_2.jpg" class="image_s"></a>
+					<div class="popular_text_bg"></div>
+				</div>
+				<div class="popular_text">杭州香格里拉尊贵总统套房</div>
+				<div class="popular_star">
+					<p>酒店星级：</p>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="grey_star"></span>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="popular_item">
+				<div class="bg">
+					<a href="#"><img src="images/popular_activity_3.jpg" class="image_s"></a>
+					<div class="popular_text_bg"></div>
+				</div>
+				<div class="popular_text">杭州香格里拉尊贵总统套房</div>
+				<div class="popular_star">
+					<p>酒店星级：</p>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="grey_star"></span>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="popular_item">
+				<div class="bg">
+					<a href="#"><img src="images/popular_activity_4.jpg" class="image_s"></a>
+					<div class="popular_text_bg"></div>
+				</div>
+				<div class="popular_text">杭州香格里拉尊贵总统套房</div>
+				<div class="popular_star">
+					<p>酒店星级：</p>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="grey_star"></span>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="popular_bg" id="popular_bg">
+			<div class="popular_item">
+				<div class="bg">
+					<a href="#"><img src="images/popular_activity_1.jpg" ></a>
+					<div class="popular_text_bg"></div>
+				</div>
+
+				<div class="popular_text">杭州香格里拉尊贵总统套房</div>
+				<div class="popular_star">
+					<p>酒店星级：</p>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="grey_star"></span>
+					<div class="clear"></div>
+				</div>
+
+			</div>
+			<div class="popular_item">
+				<div class="bg">
+					<a href="#"><img src="images/popular_activity_2.jpg" class="image_s"></a>
+					<div class="popular_text_bg"></div>
+				</div>
+				<div class="popular_text">杭州香格里拉尊贵总统套房</div>
+				<div class="popular_star">
+					<p>酒店星级：</p>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="grey_star"></span>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="popular_item">
+				<div class="bg">
+					<a href="#"><img src="images/popular_activity_3.jpg" class="image_s"></a>
+					<div class="popular_text_bg"></div>
+				</div>
+				<div class="popular_text">杭州香格里拉尊贵总统套房</div>
+				<div class="popular_star">
+					<p>酒店星级：</p>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="grey_star"></span>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="popular_item">
+				<div class="bg">
+					<a href="#"><img src="images/popular_activity_4.jpg" class="image_s"></a>
+					<div class="popular_text_bg"></div>
+				</div>
+				<div class="popular_text">杭州香格里拉尊贵总统套房</div>
+				<div class="popular_star">
+					<p>酒店星级：</p>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="yellow_star"></span>
+					<span class="grey_star"></span>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<!--按钮-->
+			<div class="popular_but"><a href="#">查看更多活动</a></div>
+		</div>
+
+	</div>
+
+	<!--品牌故事-->
+	<div class="video">
+		<div class="video_title"></div>
+		<div class="video_bg"><img src="images/video_bg.jpg" /></div><div class="clear"></div>
+		<div class="video_but"><a href="#"><div class="video_but_bg"><span></span></div></a></div>
+	</div>
+
+	<!--达人推荐-->
+<div class="fecommend">
+	<div class="fecommend_title">
+		<div class="title">
+			<p class="text1">达人推荐</p>
+			<div class="title_iocn"></div>
+			<p class="text2">我是达人是全球首个旅游达人服务平台，在这里汇聚了各种旅游达人，让旅游达人边旅游边赚钱，</br> 让大众游客享受达人级旅游体验。</p>
+		</div>
+	</div>
+	<div class="fecommend_con">
+		<div class="people_1">
+			<div class="people_profile ">
+				<a href="#"><img src="images/avatar_left1.jpg"></a>
+				<div><b>萌小喵</b> 百度旅行师、签约摄影师</div>
+				<div>擅长：<em>旅行</em><em>写作</em><em>音乐</em></div>
+			</div>
+
+			<div class="people_profile">
+				<a href=""><img src="images/avatar_left2.jpg"></a>
+				<div><b>Mike</b> 百度旅行师、签约摄影师</div>
+				<div>擅长：<em>旅行</em><em>写作</em><em>音乐</em></div>
+			</div>
+
+		</div>
+		<div class="people_2">
+
+			<div class="people_profile_middle">
+				<a href="#"><img src="images/avatar.jpg"><br></a>
+				<b>David</b><br>
+				<span>百度旅行师、签约摄影师</span>
+				<p>自由撰稿人,8家网站旅游论坛的版主,喜欢旅 行、摄影,搜集世界各地的明信片。喜欢分享 自己的一切旅游攻略与全国各地游览感受。</p>
+				<div>擅长：<em>旅行</em><em>写作</em><em>音乐</em></div>
+			</div>
+
+			<p>参与了#三正半山酒店试睡#</p>
+		</div>
+		<div class="people_3">
+
+			<div class="people_profile">
+				<a href="#"><img src="images/avatar_right1.jpg"></a>
+				<div><b>骑行大熊</b> 百度旅行师、签约摄影师</div>
+				<div>擅长：<em>旅行</em><em>写作</em><em>音乐</em></div>
+			</div>
+
+
+			<div class="people_profile">
+				<a href="#"><img src="images/avatar_right2.jpg"></a>
+				<div><b>Candy</b> 百度旅行师、签约摄影师</div>
+				<div>擅长：<em>旅行</em><em>写作</em><em>音乐</em></div>
+			</div>
+
+		</div><div class="clear"></div>
+		<div class="fecommend_but">
+			<a href="#">查看更多达人</a>
+		</div>
+	</div>
+</div>
+
+	<!--数据-->
+	<div class="data">
+		<ul>
+			<li><div class="data_bg"><div class="data_icon1"></div></div><div class="data_num">1200</div><div class="data_text">人活动达人用户</div></li>
+			<li><div class="data_bg"><div class="data_icon2"></div></div><div class="data_num">1277</div><div class="data_text">家酒店平台合作</div></li>
+			<li><div class="data_bg"><div class="data_icon3"></div></div><div class="data_num">869</div> <div class="data_text">次达人活动发布</div></li>
+			<li><div class="data_bg"><div class="data_icon4"></div></div><div class="data_num">75</div>  <div class="data_text">期活动资金发放</div></li>
+		</ul>
+	</div>
+
+	<!--合作品牌-->
+	<div class="brand_warp">
+		<div class="cooperative_brand">
+			<div class="title">合作品牌</div>
+			<div class="title_icon"></div>
+			<!--品牌图标-->
+			<div class="icon">
+				<ul>
+					<li><img src="images/hotel_indigo.jpg"></li>
+					<li><img src="images/crowne_plaza.jpg"></li>
+					<li><img src="images/holiday_lnn.jpg"></li>
+					<li><img src="images/marriott.jpg"></li>
+					<li><img src="images/hilton.jpg"></li>
+					<li><img src="images/shangri.jpg"></li>
+					<li><img src="images/hotel_indigo.jpg"></li>
+					<li><img src="images/crowne_plaza.jpg"></li>
+					<li><img src="images/holiday_lnn.jpg"></li>
+					<li><img src="images/marriott.jpg"></li>
+					<li><img src="images/hilton.jpg"></li>
+					<li><img src="images/shangri.jpg"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--合作链接-->
+	<div class="cooperative_link"><div class="cooperative_link_vice">
+		<!--联系我们-->
+		<div class="cooperative_link_item">
+			<div class="contact_us">
+				<div class="title"><b>联系我们</b></div>
+				<div class="icon">
+					<ul>
+						<li><a href="#" class="qq"></a></li>
+						<li><a href="#" class="sina_Weibo"></a></li>
+						<li><a href="#" class="email"></a></li>
+						<li><a href="#" class="Fax"></a></li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div class="qr_codes"></div>
+				<div class="text">关注我是达人公众账号</div>
+			</div>
+		</div>
+		<!--相关信息-->
+		<div class="cooperative_link_item">
+		<div class="information">
+			<ul>
+				<li><b>相关信息</b></li>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">服务项目</a></li>
+				<li><a href="#">工作机会</a></li>
+				<li><a href="#">媒体报道</a></li>
+				<li><a href="#">法律声明</a></li>
+				<li><a href="#">支持帮助</a></li>
+			</ul>
+		</div>
+		</div>
+		<!--合作品牌-->
+		<div class="cooperative_link_item">
+		<div class="information">
+			<ul>
+				<li><b>合作品牌</b></li>
+				<li><a href="#">万豪酒店</a></li>
+				<li><a href="#">深圳希尔顿</a></li>
+				<li><a href="#">三亚喜来登</a></li>
+				<li><a href="#">杭州安曼</a></li>
+				<li><a href="#">昆明洲际酒店</a></li>
+				<li><a href="#">新加坡金沙</a></li>
+			</ul>
+		</div>
+		</div>
+		<!--意见反馈-->
+		<div class="cooperative_link_item">
+		<div class="feedback">
+			<div class="title"><b>意见反馈</b></div>
+			<form name="reply"  method="post" onsubmit="return validateForm();">
+				<input type="text" name="user_name" class="text" placeholder=" 您的姓名"  c /><br />
+				<input type="email" class="text" name="user_email" placeholder=" 您的邮箱"  /><br />
+				<textarea name="cont"  class="text" rows="3" placeholder=" 说点什么..." style="overflow-y:hidden"></textarea><br />
+				<input type="submit" class="but" value="提交" >
+			</form>
+		</div>
+		</div>
+
+		<div class="clear"></div>
+	</div></div>
+
+	<!--我是分割线-->
+	<div class="line"></div>
+
+	<!--所有声明-->
+	<div class="don">
+		<div class="text">广州粉丝信息科技有限公司  © All Rights Reserved</div>
+		<div class="text">粤ICP备14100486号-3/粤ICP备14100486号-2</div>
+	</div>
+
+	<!--遮罩层-->
+	<div id="zz"></div>
+	<!--弹出窗-->
+	<div class="login_box">
+		<div id="close_btn"></div>
+		<div class="cont_dl">
+			<!-- <div class="menu">
+				<div class="sj">我是商家</div>
+				<div class="dr">我是达人</div>
+			</div> -->
+			<div class="item sj_dl">
+				<form>
+					<input type="text" class="te_1" placeholder="邮箱 / 用户名 / 手机号"/>
+					<input type="password" class="te_2" placeholder="请输入登录密码"/>
+					<input type="checkbox" class="ch_1" /> 自动登陆
+					<div class="le_1">忘记密码</div>
+					<a href="" class="login">立即登录</a>
+				</form>
+			</div>
+			<div class="item dr_dl">
+				<form>
+					<input type="text" class="te_1" placeholder="邮箱 / 用户名 / 手机号"/>
+					<input type="password" class="te_2" placeholder="请输入登录密码"/>
+					<input type="checkbox" class="ch_1" /> 自动登陆
+					<div class="le_1">忘记密码</div>
+					<a href="" class="login">立即登录</a>
+				</form>
+			</div>
+
+			<div class="qt_dl">
+				<div class="qt"><hr> <span>其他方式登陆</span></div>
+				<div class="item_dl">
+					<a href="" class="weixin"></a>
+					<a href="" class="qq"></a>
+					<a href="" class="wibe"></a>
+				</div>
+				<div class="btn">
+					还没有我是达人账号？现在去
+					<button class="go_zc">注册</button>
+				</div>
+			</div>
+		</div>
+		<div class="cont_yx">
+			<div class="log"><img src="images/logo.png" /></div>
+			<input type="text" class="mile"  placeholder="请输入注册邮箱" />
+			<!-- <span class="tishi">邮箱地址不存在</span> -->
+			<button class="btn_mail">发送邮件</button>
+		</div>
+		<div class="cont_tishi">
+			<span>温馨提示</span>
+			<br>
+			<span>重置密码链接已经发至您的邮箱:</span>
+			<span class="mail_site"><a href="">http://xxx.com/clientarea.php?action=productdetails&id=13175</a></span>
+		</div>
+		<div class="cont_zc">
+			<div class="menu">
+				<div class="sj">我是商家</div>
+				<div class="dr">我是达人</div>
+			</div>
+
+			<div class="item sj_dl">
+				<form>
+					<input type="text" class="te_1" placeholder="邮箱 / 用户名 / 手机号"/>
+					<input type="password" class="te_2" placeholder="请输入登录密码"/>
+					<a href="" class="login">立即注册</a>
+				</form>
+			</div>
+			<div class="item dr_dl">
+				<form>
+					<input type="text" class="te_1" placeholder="邮箱 / 用户名 / 手机号"/>
+					<input type="password" class="te_2" placeholder="请输入登录密码"/>
+					<a href="" class="login">立即注册</a>
+				</form>
+			</div>
+
+			<div class="qt_dl">
+				<div class="qt"><hr> <span>其他方式登陆</span></div>
+				<div class="item_dl">
+					<a href="" class="weixin"></a>
+					<a href="" class="qq"></a>
+					<a href="" class="wibe"></a>
+				</div>
+				<div class="btn">
+					已经是会员，直接
+					<button class="go_dl">登录</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</htmel>

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.master_skzh_add { width: 770px; height: auto; background-color: #fff; border: 1px solid #999; float: right; padding-bottom: 30px; }
+.master_skzh_add .page_title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 15px; width: 100%;}
+.master_skzh_add .hint { width: 710px; height: 50px; line-height: 50px; text-indent: 2em; background-color: #FFFDF6; margin-left: 30px; margin-right: 30px; border: 1px solid #FFA30C; margin-top: 20px; font-size:14px; }
+.master_skzh_add .yzzp_cont { width: 710px; margin-left: 30px; margin-right: 30px; margin-top: 50px; font-size: 14px;}
+.yzzp_cont .menu {width: 710px; line-height: 40px; height;}
+.yzzp_cont .menu label { margin-right: 40px; font-size: 14px;}
+
+.yzzp_cont .bank .arrow1 { background-image: url(../../images/item_icon/admin_icon.png); background-repeat:no-repeat;  background-position: -6px -100px; height:13px; width:30px; margin-left: 20px; margin-bottom: -3px; z-index: 2; position: relative;}
+.yzzp_cont .bank_cont { width: 710px; border:1px solid #d9d9e0; padding-bottom: 60px; z-index: 1;}
+.yzzp_cont .bank_cont .item .text_2 { width: 370px; height: 37px;}
+.yzzp_cont .bank_cont .item { margin-left: 20px; line-height: 35px;margin-top: 45px;}
+.yzzp_cont .bank_cont .item em { display: inline-block; width: 120px; line-height: 30px; line-height: 30px; text-align: right;}
+.yzzp_cont .bank_cont .item .text_1 { width: 270px; height: 37px;}
+.yzzp_cont .bank .bank_cont .item .text_2 { width: 170px; height: 37px;}
+.yzzp_cont .bank .bnt_bg { width: 100%; margin-top: 20px;}
+
+
+.yzzp_cont .alipay .arrow2 { background-image: url(../../images/item_icon/admin_icon.png); background-repeat:no-repeat;  background-position: -6px -100px; height:13px; width:30px; margin-left: 120px; margin-bottom: -3px; z-index: 2; position: relative;}
+
+
+.yzzp_cont .bnt_bg em { display: inline-block; width: 140px; margin-top: 50px;}
+.yzzp_cont .bnt_bg .bnt { width: 210px; height: 40px; color: #fff; background-color: #FFA30C; border: 0px; }
+.yzzp_cont .bnt_bg .bnt:hover { width: 210px; height: 40px; background-color: #ffbb0e; color: #fff;  border: 0px; }
+
+
+
+/*
+*{ border: 1px solid red;}*/

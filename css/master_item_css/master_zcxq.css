@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.master_zcxq {width: 770px; height: auto;  background-color: #fff; border: 1px solid #d1d1d5; float: right; padding-bottom: 30px; }
+.master_zcxq .zcxq_title { margin-top: 55px; padding-left: 30px; color: #404040; font-size: 14px; width: 100%; }
+
+.master_zcxq .zcxq_cont { margin-left: 30px; margin-top: 20px; width: 100%; height: 20px; }
+.master_zcxq div { width: 100px; line-height: 20px; float: left; font-size: 14px;}
+
+
+.master_zcxq .yzzp_title  { margin-top: 55px; padding-left: 30px; color: #404040; font-size: 15px; width: 100%;}
+.master_zcxq .yzzp_cont { margin-top: 30px; margin-left: 30px; width: 100%; }
+.master_zcxq .yzzp_cont .addlink { width: 100%; height: 35px; }
+.master_zcxq .yzzp_cont .addlink input { width: 555px; height: 35px; float: left;}
+.master_zcxq .yzzp_cont .addlink button { width: 110px; height: 33px; margin-left: 20px; border: 1px solid #d1d1d5; background-color: #fff; color: #676767; margin-top: 1px; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
+.master_zcxq .yzzp_cont .addlink button a { border: 1px solid #d1d1d5; color: #676767; }
+.master_zcxq .yzzp_cont .addlink button a:hover { border: 1px solid #d1d1d5; color: #FFA30C; }
+.master_zcxq .linkshow { margin-top: 20px; width: 100%;}
+.master_zcxq .linkshow table { border: 1px solid #dcdcdc;}
+.master_zcxq .linkshow tr { text-align: center; height: 40px; font-size: 15px; color: #999;}
+.master_zcxq .linkshow input { width: 555px; height: 40px; border:0px; text-align: center; font-size: 14px;}
+.master_zcxq .linkshow button { width: 125px; height: 40px; border:0px; background-color: #fff; text-align: center; font-size: 14px;}
+.master_zcxq .linkshow .grzl { width: 555px; height: 40px;  background-color: #f0f0f5; color: #646464; font-size: 14px;}
+.master_zcxq .linkshow .cz { width: 125px; background-color: #f0f0f5; color: #646464; font-size: 14px;}
+
+.master_zcxq .but { width: 100%; text-align: center;}
+.master_zcxq .sub { width: 215px; height: 45px; background-color: #FFA30C; border: 0px; color: #fff; margin-top: 60px; font-size: 16px; margin-bottom: 136px;}
+.master_zcxq .sub:hover { width: 215px; height: 45px; background-color: #ffbb0e; color: #fff; };
+/*
+*{ border: 1px solid red;}*/

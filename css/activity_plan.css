@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*标题和图片按钮背景*/
+.header_warp { background-color: #000;}
+
+/*用户中心*/
+.centre_bg { width: 100%; height: 1000px; background-color: #F0F0F5; margin-top: 70px; padding-bottom: 60px;}
+
+.centre_bg .activity_gc { width: 1000px; margin:0 auto;}
+.centre_bg .activity_gc div { float: left; text-align: center; line-height: 35px; margin-top: 40px;}
+.centre_bg .activity_gc .bg_1 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -7px -222px; height:35px; width:250px; color: #767676;}
+.centre_bg .activity_gc .bg_2 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -257px -187px; height:35px; width:250px; color: #fff;}
+.centre_bg .activity_gc .bg_3 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -507px -222px; height:35px; width:250px; color: #767676;}
+.centre_bg .activity_gc .bg_4 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -757px -222px; height:35px; width:250px; color: #767676;}
+
+.cont { width: 1000px; height: 800px; margin:0 auto; background-color: #fff; margin-top: 40px; border-top: 3px solid #FFA30C; }
+.cont .cont_title { width:800px; font-size: 25px; margin-left: 60px; margin-top: 60px;}
+.cont .plan { width: 800px; margin-top: 20px; margin-left: 60px;}
+.cont .plan .plan_1 { width: 175px; height: 200px; border:1px solid #FFA30C; float: left; margin-right: 40px; cursor: pointer;}
+.cont .plan .plan_1 .fa_a { background-color: #FFA30C; height: 30px;text-align: center; line-height: 30px; color: #fff;}
+.cont .plan .plan_1 .num { height: 80px; line-height: 80px; text-align: center; color: #FFA30C; margin-top: 34px;}
+.cont .plan .plan_1 .num em { font-size: 30px;}
+.cont .plan .plan_1 .dr { text-align: center;}
+.cont .plan .plan_1 .dr em { color: #FFA30C;}
+.cont .plan .plan_1 .checd { background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -205px -11px; height:35px; width:36px; float: right;}
+
+.cont .plan .plan_2 { width: 175px; height: 200px; border:1px solid #d2d2d9; float: left; margin-right: 40px; cursor: pointer;}
+.cont .plan .plan_2 .fa_a { background-color: #dcdce0; height: 30px;text-align: center; line-height: 30px; color: #6e6e6f;}
+.cont .plan .plan_2 .num { height: 80px; line-height: 80px; text-align: center;  margin-top: 34px;}
+.cont .plan .plan_2 .num em { font-size: 30px;}
+.cont .plan .plan_2 .dr { text-align: center;}
+.cont .plan .plan_2 .dr em { color: #FFA30C;}
+
+.cont .moeny { width: 860px;  margin-top: 50px; margin-left: 60px; font-size: 14px; color: #404040;}
+.cont .moeny ul { border-bottom: 1px dashed #999;}
+.cont .moeny li { line-height: 40px;}
+.cont .moeny .zj { text-align: right; line-height: 30px; margin-top: 30px;}
+.cont .moeny .zj em { font-size: 25px; color: #FFA30C;}
+
+
+
+
+
+.cont .go_btn { width: 930px; height: 50px; margin-top: 40px; margin-left: 30px; text-align: center;}
+.cont .go_btn a { width: 220px; height: 35px; line-height: 35px; background-color: #FFA30C; color: #fff; display: inline-block; text-align: center;}

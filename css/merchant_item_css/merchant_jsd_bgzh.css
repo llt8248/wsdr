@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.header_warp { background-color: #000;}
+
+.merchant_jsd_bgzh {width: 985px; height: auto;  margin: 0 auto; margin-top: 70px;}
+.merchant_jsd_bgzh .xz_btn { width: 925px; margin-top: 20px;}
+.merchant_jsd_bgzh .xz_btn a { width: 120px; height: 35px; line-height: 35px; background-color: #FFA30C; color: #fff; display: inline-block; float: right;text-align: center; -webkit-border-radius: 5px; -moz-border-radius: 5px;}
+.merchant_jsd_bgzh .title { line-height: 80px; font-size: 18px; width: 925px; text-align: center; border-bottom: 1px solid #999; margin-left: 30px; height: 80px;}
+
+.merchant_jsd_bgzh .hotel { width:925px; margin-top: 50px; margin-left: 30px; height: 174px; }
+.hotel .ren_bg { float: left; margin-left: 60px; width: 114px; height: 158px;}
+.hotel .ren_bg img {width: 114px; height: 158px;  border:1px solid #999; padding:4px;}
+.hotel .ren_cont { float: left; margin-left: 40px; line-height: 32px; font-size: 15px;}
+.hotel .ren_cont .hd_hotel { font-weight: bold;}
+.hotel .ren_cont .num_t { color: #FFA30C;}
+
+.merchant_jsd_bgzh .item_dr { width: 925px; margin-left: 30px; background-color: #ddd; height: auto; padding-bottom: 20px; padding-top: 5px; margin-top: 30px;}
+.item_jj { width: 870dpx; height: 150px; margin-top: 40px; margin-left: 60px; }
+.item_jj .ren_bg { float: left; margin-left: 30px; } 
+.item_jj .ren_bg img { width:140px; height: 140px; border:1px solid #999; padding:4px; background-color: #fff;}
+.item_jj .ren_cont { width: 460px;  float: left; margin-left: 60px; line-height: 37px;}
+.item_jj .ren_cont em { margin-right: 40px;}
+
+.yj_lj { margin-top: 20px; width: 710px; margin-left: 90px; font-size: 15px; }
+.yj_lj li { line-height: 30px; color: #999;}
+
+.jh_bg { margin-left: 90px; margin-top: 20px;}
+.jh_bg ul {margin-top: 20px;}
+.jh_bg li { width:125px; height: 150px; text-align: center; float: left; margin-right: 30px; font-size: 14px; line-height: 30px;}
+
+.hd_bg { margin-left: 90px; margin-top: 20px; margin-top: 40px;}
+.hd_bg ul { margin-top: 10px;}
+.hd_bg li { line-height: 30px;}
+
+
+/*分页*/
+.page-warp {padding-bottom: 50px;text-align:center;margin-top: 50px;}
+.page-warp a{display:inline-block; padding:6px 12px;border:1px solid #d8d8dc;}
+.page-lock{color:#999; background: #fff;}
+.page-active{color:#555; background: #fff}
+.page-point{color:#334652;display:inline-block;padding:5px 10px;}
+.page-sel{color:#FFF;background:#ffa30c;}
+.page-active:hover{color:#ffa30c; border: 1px solid #ffa30c;}
+

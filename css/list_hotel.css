@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*标题和图片按钮背景*/
+.header_warp { background-color: #000;}
+.header_bg { background-image: url(../images/list_title_bg.jpg);  background-size: 1920px 360px; max-width: 100%; height: 360px; background-position: center 0; margin-top: 70px;}
+
+
+/*选择框*/
+.select_warp { width: 100%; height: 76px; border-bottom: 1px solid #d8d8dc;}
+.select_box { min-width: 985px; max-width: 1280px;  margin-left: auto; margin-right: auto; padding-top: 17px;}
+.select_box div { float: left; margin-left: 10px; margin-right: 10px; line-height: 35px;}
+
+.select_hotel { width: 140px;}
+.select_input input { width: 210px; height: 34px;}
+
+
+.popular { width: 100%; height: 100%; margin-left: auto; margin-right: auto; padding-top: 30px;  padding-bottom: 100px; background-color: #F0F0F5;}
+.popular_bg { max-width: 1600px; min-width: 985px; height: 100%;  text-align: center; position: relative; margin-left: auto; margin-right: auto;}
+.popular_bg .popular_item { width: 20%; float: left;  margin-left: 4%; margin-top: 20px; }
+.popular_bg .popular_item .bg { width: 100%; height: 90%; background-color: #fff; position: relative; padding-top: 2%; padding-bottom: 2%; box-shadow: 0px 2px 3px #e5e5e9; border: 1px solid #d6d6db;}
+.popular_bg .popular_item .bg  img { width: 96%; height: 96%; }
+.popular_bg .popular_item .popular_text_bg { width: 95.9%; height: 40px; background-color: #000;  margin-top: -40px; margin-left: 2.1%; filter:alpha(opacity=50); -moz-opacity:0.5; opacity:0.5;}
+.popular_bg .popular_item .popular_text { width: 190px; height: 20px; color: #fff; position: relative; margin-top: -37px;  text-align: left; margin-left: 4%; font-size: 14px;}
+
+/*热门活动 星级设置*/
+.popular_star { width: 155px; line-height: 30px; text-align: center; margin-top: 30px; margin-left: auto; margin-right: auto; }
+.popular_star p { font-size: 14px; float: left;}
+.popular_star .yellow_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: 0px -43px; height:15px; width:17px; display: block; float: left; margin-top: 9px;}
+.popular_star .grey_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: -20px -43px; height:15px; width:17px; display: block; float: left; margin-top: 9px;}
+
+
+
+/**{border:1px solid #999;}*/

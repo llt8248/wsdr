@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*标题和图片按钮背景*/
+.header_warp { background-color: #000;}
+
+/*用户中心*/
+.centre_bg { width: 100%; height: auto; background-color: #F0F0F5; margin-top: 70px; padding-bottom: 100px;}
+
+.centre_bg .activity_gc { width: 1000px; margin:0 auto;}
+.centre_bg .activity_gc div { float: left; text-align: center; line-height: 35px; margin-top: 40px;}
+.centre_bg .activity_gc .bg_1 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -7px -187px; height:35px; width:250px;  color: #fff;}
+.centre_bg .activity_gc .bg_2 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -257px -222px; height:35px; width:250px; color: #767676; }
+.centre_bg .activity_gc .bg_3 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -507px -222px; height:35px; width:250px; color: #767676;}
+.centre_bg .activity_gc .bg_4 {background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: -757px -222px; height:35px; width:250px; color: #767676;}
+
+.cont { width: 1000px; height: auto; margin:0 auto; background-color: #fff; margin-top: 40px; border-top: 3px solid #FFA30C; position: relative; font-size: 14px; color: #404040;}
+.cont .item_hd { width: 500px; height: 332px; float: left; margin-left: 30px; margin-top: 40px; }
+.cont .item_hd li {  width: 100%; height: 45px; line-height: 45px;  margin-bottom: 10px;}
+.cont .item_hd li em { width: 90px; display: inline-block; text-align: right;}
+.cont .item_hd li input { height: 35px; width: 150px;}
+.cont .item_hd .w_title { width:400px; }
+.cont .item_hd .w_name { width:250px; }
+.cont .item_hd .w_xm { width:250px; }
+
+.cont .zttp { width: 400px; height: 332px; float: right; margin-top: 40px; margin-left: 30px; position: relative; }
+.cont .zttp .zttp_bg {width: 360px; height: 220px; background-color: #f0f0f5; position: relative; float: right; margin-right: 40px; }
+.cont .zttp .zttp_bg .zttp_bg_t {background-image: url(../images/small_icon.png);background-repeat:no-repeat; background-position: -150px -136px; height:49px; width:60px; margin-left: auto; margin-right: auto; margin-top: 80px;}
+.cont button { width: 140px; height: 30px; font-size: 12px; background-color: #fff; border: 1px solid #cacacc; margin-top: 10px; color: #404040;}
+.cont button .btn_bg {background-image: url(../images/small_icon.png);background-repeat:no-repeat; background-position: -315px -14px; height:11px; width:11px; display: inline-block; }
+
+.popular_star { width: 255px; line-height: 45px; text-align: center; }
+.popular_star em { float: left;}
+.popular_star .yellow_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: 0px -43px; height:15px; width:17px; display: block; float: left; margin-top: 16px; }
+.popular_star .grey_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: -20px -43px; height:15px; width:17px; display: block; float: left; margin-top: 16px;}
+
+
+.cont .h_text { width: 930px; height: 350px; margin-top: 40px; margin-left: 30px;}
+
+
+.cont .jdjs {width: 930px; height: auto; margin-left: 50px;  margin-top: 35px; }
+.cont .jdjs .text { width: 520px; height: 100px; float: left;  resize:none; margin-top: 5px; border: 1px solid #cacacc;}
+.cont .jdjs p { width: 328px; float: left; margin-left: 20px;font-size: 12px;  margin-top: 5px; color: #666; line-height: 18px;}
+
+.cont .jdbgsc {width: 930px; height: auto; margin-left: 50px; margin-top: 40px; position: relative; }
+.cont .jdbgsc .jd_bg {width: 930px; height: 280px; background-color: #f0f0f5; margin-top: 10px; margin-bottom: 10px; position: relative; border:1px solid #F0F0F5;}
+.cont .jdbgsc .jd_bg .jd_bg_t { background-image: url(../images/small_icon.png);background-repeat:no-repeat; background-position: -150px -136px; height:49px; width:60px; margin-left: auto; margin-right: auto; margin-top: 120px; position: relative;}
+.cont .jdbgsc .bg_text { width: 340px; height: 35px; margin-bottom: 20px;}
+
+.cont .go_btn { width: 930px; height: 35px; margin-top: 40px; margin-left: 30px; text-align: center; padding-bottom: 90px;}
+.cont .go_btn a { width: 220px; height: 35px; line-height: 35px; background-color: #FFA30C; color: #fff; display: inline-block; text-align: center;}
+
+
+/**{border: 1px solid red;}*/
