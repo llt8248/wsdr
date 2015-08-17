@@ -49,6 +49,18 @@ $(function () {
     //计算弹出层的top
     getPosTop = screenheight / 2 - 150;
 
+      $(".btn_0").click(function () {
+        $(".tc_ty").show();
+        $(".tc_ty").css({ "left": getPosLeft, "top": getPosTop + mytop});
+
+        $("#zz").show();
+        //获取页面文档的高度
+        var docheight = $(document).height();
+        //追加一个层，使背景变灰
+        $("#zz").css({ "opacity": "0.5", "height": docheight });
+        return false;
+    });
+
      $(".btn_1").click(function () {
         $(".tc_fq").show();
         $(".tc_fq").css({ "left": getPosLeft, "top": getPosTop + mytop});
