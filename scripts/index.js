@@ -69,6 +69,12 @@ $(function(){
 
  size();
 
+    $('.heid_meun').hide();
+    $(".heid").mouseover(function(){$('.heid_meun').show();});
+    $(".heid").mouseout (function(){$('.heid_meun').hide();});
+    $(".heid_meun").mouseover(function(){$('.heid_meun').show();});
+    $(".heid_meun").mouseout (function(){$('.heid_meun').hide();});
+
 })
 
 /*页面宽度改变达人推荐位置*/

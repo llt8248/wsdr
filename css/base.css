@@ -170,7 +170,7 @@ body {
 	color: #9D9D9F;
 }
 
-.heid { width: 100px;}
+.heid { width: 100px; height: 70px;}
 .heid .heid_bg {  width: 100px; height: 40px; margin-top: 15px;  line-height: 40px;}
 .heid .heid_bg img { width: 40px; height: 40px; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; margin-right: 10px;}
 
