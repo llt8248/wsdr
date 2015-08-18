@@ -13,7 +13,8 @@
 .jbxx_cont .jbxx_item .zl .red { background-color: #fff; height: 3px; border-top: 5px solid red; display: inline-block; width: 30%;}
 .jbxx_cont .jbxx_item .zl .grey { background-color: #fff; height: 3px; border-top: 5px solid #dddddd; display: inline-block; width: 70%; }
 .jbxx_cont .jbxx_item .zl .zl_bwz { margin-left: 10px; margin-right: 10px;}
-.jbxx_cont .jbxx_item .zl a { margin-left: 10px;}
+.jbxx_cont .jbxx_item .zl a { margin-left: 10px; color: #337ab7;}
+.jbxx_cont .jbxx_item .zl a:hover { text-decoration: underline;}
 
 .sh_hd { width: 770px; border-bottom: 1px solid #999; border: 1px solid #d1d1d5; margin-top: 20px; background-color: #fff; padding-bottom: 20px;}
 .sh_hd .sh_hd_title { width: 770px; height: 70px; line-height: 70px; text-indent: 2em; background-color: #fff; border-bottom:1px solid #dfdfe4;}

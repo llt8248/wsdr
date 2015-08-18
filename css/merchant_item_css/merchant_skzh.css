@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.master_skzh { width: 750px; height: 400px; text-align: center; border:1px solid #999; background-color: #fff; float: right; }
+.master_skzh { width: 770px; height: 590px; text-align: center; border:1px solid #d1d1d5; background-color: #fff; float: right; }
 .master_skzh .title { line-height: 40px; width: 100%; text-align: center; margin-top: 80px; font-size: 22px;}
 .master_skzh a { width: 220px; height: 45px; color: #fff; background-color: #FFA30C; display: inline-block; text-align: center; line-height: 45px; margin-top: 40px; transition: 0.3s;}
 .master_skzh a:hover { background-color: #ffbb0e; color: #fff; }
