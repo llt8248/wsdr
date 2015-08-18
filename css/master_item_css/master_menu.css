@@ -13,8 +13,9 @@
 .menu_item .item_title { line-height: 40px; background-color: #F7F7FC; display: block; padding-left: 24px; border-bottom: 1px solid #d1d1d5; border-top: 1px solid #d1d1d5;}
 .menu_item ul { margin-top: 4px;}
 .menu_item li { line-height: 40px; padding-left: 24px; width:172px; float: right; background: #fff; font-size: 14px;}
-.menu_item li  a { display: block; width: 100%; transition: 0.3s; color: #404040;}
-.menu_item li a:hover { color: #ffa30c;}
+.menu_item a { display: block; width: 100%; transition: 0.3s; color: #404040;}
+.menu_item a:hover { color: #ffa30c;}
 .page-sel { border-left: 4px solid #FFA30C; color: #FFA30C;}
+.page-sel a { color: #FFA30C;}
 
 
