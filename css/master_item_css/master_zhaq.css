@@ -1,25 +1,16 @@
 @charset "UTF-8";
 
-.master_zhaq { width: 770px; height: auto;  background-color: #fff; border: 1px solid #999; float: right; padding-bottom: 30px; }
+.master_zhaq { width: 770px; height: 638px;  background-color: #fff; border: 1px solid #d1d1d5; float: right; padding-bottom: 30px; }
 .master_zhaq .title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 14px;}
 
-.zhaq_item { width: 710px; height: auto; margin-left: 30px; border: 1px solid #999; background-color: #f0f0f5; margin-top: 20px;}
+.zhaq_item { width: 710px; height: auto; margin-left: 30px; border: 1px solid #d9d9e0; background-color: #f0f0f5; margin-top: 20px;}
 .zhaq_item .sz { width: 50px; height: 50px; float: left;  font-size: 14px; margin-left: 20px; margin-top: 20px; text-align: center; margin-bottom: 20px;}
+.zhaq_item .sz em { font-size: 12px; margin-top: 5px; display: block; color: #404040;}
 .zhaq_item .sz .sz_bg {  background-image: url(../../images/item_icon/admin_icon.png); background-repeat:no-repeat;  background-position: -7px -193px; height:29px; width:29px; margin-left: 12px;}
 .zhaq_item .sz .sz_wbg {  background-image: url(../../images/item_icon/admin_icon.png); background-repeat:no-repeat;  background-position: -7px -228px; height:29px; width:29px; margin-left: 12px;}
-.zhaq_item .sz_title { width:80px; height: 90px; line-height: 90px; float: left; margin-left: 40px; text-align: center; text-align: left;}
-.zhaq_item .sz_cont { width: 317px; height: 60px; float: left; font-size: 13px; margin-left: 40px; margin-top: 30px;}
+.zhaq_item .sz_title { width:80px; height: 90px; line-height: 90px; float: left; margin-left: 20px; text-align: center; text-align: left; font-size: 14px; color: #404040;}
+.zhaq_item .sz_cont { width: 340px; height: 60px; float: left; font-size: 13px; margin-left: 40px; margin-top: 30px; color: #404040; font-size: 12px;}
 .zhaq_item .sz_cont span { color: red;}
 .sz_btn {  float: left; width: 120px; margin-left: 40px; line-height: 90px; font-size: 14px;}
-
-
-
-
-
-
-
-
-
-
-
-
+.sz_btn a { color: #337ab7;}
+.sz_btn:hover { text-decoration: underline;}

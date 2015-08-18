@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.master_txsf {  width: 770px; height: 600px; background-color: #fff; border: 1px solid #d1d1d5; float: right; padding-bottom: 30px;  }
+.master_txsf {  width: 770px; height: 630px; background-color: #fff; border: 1px solid #d1d1d5; float: right; padding-bottom: 30px;  }
 form { text-align: center;}
 .master_txsf .title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 14px;}
 

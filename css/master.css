@@ -40,7 +40,7 @@
 .hd_all .hd_xz { width: 349px; height: auto; margin-top: 20px; border:1px solid #dfdfe4; position: relative;}
 .hd_xz .xz {  background-image: url(../images/item_icon/admin_icon.png); background-repeat:no-repeat; background-position: -55px -111px;  height:70px; width:70px; position: absolute; top: -1px; right: -1px; z-index: 9;}
 .hd_qr { margin-top: 20px; margin-left: 10px; width: 329px; height: auto; margin-bottom: 23px;}
-.hd_qr .btn_0 { width: 142px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #FFA30C; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px;}
+.hd_qr .btn_0 { width: 142px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #FFA30C; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: none;}
 .hd_qr .btn_1 { width: 142px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #FFA30C; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border:0px;}
 .hd_qr .btn_2 { width: 309px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #fff; display: inline-block; color: #FFA30C; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #FFA30C; margin-top: 12px;}
 
@@ -86,7 +86,7 @@
 .tc_ty { width: 520px; height: 360px; background-color: #fff; position: fixed; border: 2px solid #999; text-align: center; z-index: 99999;}
 .tc_ty h2 { margin-top: 50px; width: 350px; margin-left: auto; margin-right: auto; text-align: left; }
 .tc_ty ul { width: 350px; margin-left: auto; margin-right: auto; text-align: left; font-size: 12px; line-height: 30px; margin-top: 10px;}
-.tc_ty .xzsj { width: 350px; margin-top: 20px; font-size: 13px; margin-left: auto; margin-right: auto; text-align: left;}
+.tc_ty .xzsj { width: 370px; margin-top: 20px; font-size: 13px; margin-left: auto; margin-right: auto; text-align: left;}
 .tc_ty .xzsj .laydate-icon { width: 150px; height: 35px;margin-right: 10px; float: left;}
 .tc_ty .xzsj .sub { width: 160px; height: 35px; line-height: 35px; background-color: #FFA30C; border: 0px; color: #fff; font-size: 14px; text-align: center; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-top: 30px; margin-left: 90px;}
 

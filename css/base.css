@@ -145,15 +145,26 @@ body {
 
 /*登录后*/
 .nav-bar_dl {float: right;}
-.nav-bar_dl .nav_bar_w { 
+.nav-bar_dl .nav_bar_w {
 	float: left;
 	line-height: 70px;
 	position: relative;
 	color: #999;
 	width:100px;
-	 text-align: center;
+	text-align: center;
+	font-size: 14px;
 	}
-.nav-bar_dl .nav_bar_w button { 
+
+.nav-bar_dl .nav_bar_w a {
+		color: #999;
+		}
+
+.nav-bar_dl .nav_bar_w a:hover {
+			color: #FFA30C;
+			text-decoration: underline;
+	}
+
+.nav-bar_dl .nav_bar_w button {
 	border:0px;
 	background:rgba(0,0,0,0.3);
 	-webkit-transition:all .2s ease-in-out;
@@ -171,21 +182,14 @@ body {
 }
 
 .heid { width: 100px; height: 70px;}
-.heid .heid_bg {  width: 100px; height: 40px; margin-top: 15px;  line-height: 40px;}
-.heid .heid_bg img { width: 40px; height: 40px; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; margin-right: 10px;}
+.heid .heid_bg {  width: 100px; height: 40px; margin-top: 15px;  line-height: 40px; cursor: pointer;}
+.heid .heid_bg img { width: 36px; height: 36px; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; margin-right: 10px;}
 
-.heid_meun { width: 140px; position: absolute; top: 70px; left: -20px; border-top: 2px solid #FFA30C;}
-.heid_meun li { background-color: #fff; line-height: 50px; border-bottom: 1px solid #f0f0f5;}
+.nav-bar_dl .nav_bar_w .heid_meun { width: 140px; position: absolute; top: 70px; left: -20px; border-top: 2px solid #FFA30C;}
+.nav-bar_dl .nav_bar_w .heid_meun li { background-color: #fff; line-height: 50px; border-bottom: 1px solid #f0f0f5;}
+.nav-bar_dl .nav_bar_w .heid_meun li a {	color: #404040; transition: 0.3s;}
+.nav-bar_dl .nav_bar_w .heid_meun li a:hover { color: #FFA30C;}
 
-
-.heid_meun a {
-	color: #9e9ea0;
-	transition: 0.3s;
-}
-
-.heid_meun a:hover {
-	color: #000;
-}
 
 .masseg_bg {background-image:  url(../images/small_icon.png); background-repeat:no-repeat; background-position: -236px -146px;  width: 20px; height: 20px; float: left; margin-left: 40px; margin-top: 26px;}
 
