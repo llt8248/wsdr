@@ -3,8 +3,8 @@
 .merchant_shxx_bj { width: 770px; height: auto;  float: right; border: 1px solid #d1d1d5; background-color: #fff; padding-bottom: 30px; min-height: 640px;}
 .merchant_shxx_bj .title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 14px;}
 .merchant_shxx_bj .user_xx { margin-left: 50px; margin-top: 50px;}
-.merchant_shxx_bj .user_xx li { margin-bottom: 25px; font-size: 14px; color:#404040; height: 35px;}
-.merchant_shxx_bj .user_xx em { width: 105px; height: 35px; line-height: 40px; display: inline-block; text-align: right; color: #404040; font-size: 14px; margin-right: 30px;}
+.merchant_shxx_bj .user_xx li { margin-bottom: 25px; font-size: 14px; color:#404040; height: 40px;}
+.merchant_shxx_bj .user_xx em { width: 105px; height: 40px; line-height: 40px; display: inline-block; text-align: right; color: #404040; font-size: 14px; margin-right: 30px;}
 .merchant_shxx_bj .user_xx span { width: 260px;  line-height: 35px; padding-left: 5px; border: 0px;}
 .merchant_shxx_bj .user_xx .text4 { float: left; }
 .merchant_shxx_bj .user_xx p { width: 480px; height: 112px; float: left; overflow-y: hidden;}

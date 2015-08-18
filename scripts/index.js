@@ -93,6 +93,9 @@ function size(){
         $(".people_profile").eq(2).css({'position':'absolute','top': 0,'left': 20});
         $(".people_profile").eq(3).css({'position':'absolute','top': 160,'left': 20});
 
+        $('.popular_bg').css('width', '985');
+
+
 
     }  else {
 
@@ -100,6 +103,8 @@ function size(){
         $(".people_profile").eq(1).css({'position':'absolute','top': 160,'left': -60});
         $(".people_profile").eq(2).css({'position':'absolute','top': 0,'left': 100});
         $(".people_profile").eq(3).css({'position':'absolute','top': 160,'left': 60});
+
+        $('.popular_bg').css('width', '1440');
 
     }
 

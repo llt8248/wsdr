@@ -53,17 +53,13 @@
 .popular_activity .subtitle { margin-top: 10px;}
 
 /*热门活动 图片设置*/
-.popular_bg { max-width: 1600px; min-width: 985px; height: 100%; margin-top: 50px;   position: relative; margin-left: auto; margin-right: auto;}
-.popular_bg .popular_item { width: 20%; float: left;  margin-left: 4%; margin-top: 20px; }
-.popular_bg .popular_item .bg { width: 100%; height: 90%; background-color: #fff; position: relative; padding-top: 2%; padding-bottom: 2%; box-shadow: 0px 2px 3px #e5e5e9; border: 1px solid #d6d6db; }
-.popular_bg .popular_item .bg:hover { -moz-box-shadow: 0px 10px 30px #afafb3; -webkit-box-shadow: 0px 10px 30px #afafb3; box-shadow: 0px 10px 30px #afafb3;}
-.popular_bg .popular_item .bg  img { width: 96%; height: 96%; }
-.popular_bg .popular_item .popular_text_bg { width: 95.9%; height: 40px; background-color: #000;  margin-top: -40px; margin-left: 2.1%; filter:alpha(opacity=50); -moz-opacity:0.5; opacity:0.5;}
-.popular_bg .popular_item .popular_text { width: 190px; height: 20px; color: #fff; position: relative; margin-top: -37px;  text-align: left; margin-left: 4%; font-size: 14px;}
+.popular_bg { width: 985px; height: auto; margin-top: 50px;   position: relative; margin-left: auto; margin-right: auto;}
+
+.popular_item { width: 430px; height: 410px; border: 1px solid #999; background-color: #fff; padding:10px; margin:12px;  float: left;}
+.popular_item .jd_bg img { width: 430px; height: 270px;}
 
 /*热门活动 星级设置*/
-.popular_star { width: 155px; line-height: 30px; text-align: center; margin-top: 30px; margin-left: auto; margin-right: auto; }
-.popular_star p { font-size: 14px; float: left;}
+.popular_star { width: 85px; line-height: 30px; text-align: center; margin-top: 10px; margin-left: auto; margin-right: auto; }
 .popular_star .yellow_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: 0px -43px; height:15px; width:17px; display: block; float: left; margin-top: 9px;}
 .popular_star .grey_star { background-image: url(../images/small_icon.png); background-repeat:no-repeat;  background-position: -20px -43px; height:15px; width:17px; display: block; float: left; margin-top: 9px;}
 

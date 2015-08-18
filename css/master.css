@@ -59,20 +59,21 @@
 .hd_yjsd .hd_yfq .hd_qr .btn_ok { width: 142px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #bfbfbf; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: none;}
 .hd_yjsd .hd_yfq .hd_qr .btn_cancel { width: 142px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #bfbfbf; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border:0px;}
 .hd_yjsd .hd_yfq .hd_qr .btn_talk { width: 309px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #fff; display: inline-block; color: #bfbfbf; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #bfbfbf; margin-top: 12px;}
+.hd_qr .editor_report { display: inline-block; width: 309px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #FFA30C; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-top: 10px; border:0px;}
 
 
 
 .hd_all .hd_tj { width: 349px; height: auto; margin-top: 20px; border:1px solid #dfdfe4; position: relative;}
 .hd_tj .xz {  background-image: url(../images/item_icon/admin_icon.png); background-repeat:no-repeat; background-position: -50px -269px;  height:73px; width:73px; position: absolute; top: -1px; right: -1px; z-index: 9;}
-.hd_tj .editor_report { width: 309px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #FFA30C; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-top: 10px; border:0px;}
+.hd_tj .editor_report { display: inline-block; width: 309px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #FFA30C; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-top: 10px; border:0px;}
 
 .hd_all .hd_wtj { width: 349px; height: auto; margin-top: 20px; border:1px solid #dfdfe4; position: relative;}
 .hd_wtj .xz {  background-image: url(../images/item_icon/admin_icon.png); background-repeat:no-repeat; background-position: -125px -177px;  height:73px; width:73px; position: absolute; top: -1px; right: -1px; z-index: 9;}
-.hd_wtj .editor_report { width: 309px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #bfbfbf; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-top: 10px; border:0px;}
+.hd_wtj .editor_report { display: inline-block;  width: 309px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #bfbfbf; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-top: 10px; border:0px;}
 
 .hd_all .hd_sk { width: 349px; height: auto; margin-top: 20px; border:1px solid #dfdfe4; position: relative;}
 .hd_sk .xz {  background-image: url(../images/item_icon/admin_icon.png); background-repeat:no-repeat; background-position: -50px -346px;  height:73px; width:73px; position: absolute; top: -1px; right: -1px; z-index: 9;}
-.hd_sk .editor_report { width: 309px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #FFA30C; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-top: 10px; border:0px;}
+.hd_sk .editor_report { display: inline-block;  width: 309px; height: 35px; font-size: 14px; line-height: 35px; text-align: center; background-color: #FFA30C; display: inline-block; color: #fff; margin-left: 10px; margin-right: 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-top: 10px; border:0px;}
 
 .hd_all .hd_js { width: 349px; height: auto; margin-top: 20px; border:1px solid #dfdfe4; position: relative;}
 .hd_js .xz {  background-image: url(../images/item_icon/admin_icon.png); background-repeat:no-repeat; background-position: -125px -24px;  height:73px; width:73px; position: absolute; top: -1px; right: -1px; z-index: 9;}
