@@ -20,6 +20,7 @@
 
 .cont .why_tg { width: 900px; height: 50px; line-height: 50px; text-indent: 2em; font-size: 15px; margin-left: 50px; border: 1px solid #FFA30C; background-color: #FFFDF6; margin-top: 40px; }
 .cont .why_tg span { font-size: 14px; color: red; margin-left: 30px;}
+.cont .why_tg span a { color: #fc1923; }
 
 .cont .tg_m { width: 300px; margin-left: 90px; margin-top: 40px;}
 .cont .tg_m em { color: #FFA30C; font-size: 27px;}
@@ -37,7 +38,7 @@
 
 .cont .zz { width: 890px; height: 150px; margin-left: 60px; margin-top: 40px;}
 .cont .zz .zz_ts { width: 800px;}
-.cont .zz .zz_ts span {color: red;font-size: 14px; margin-left: 10px;}
+.cont .zz .zz_ts span {color: #fc1923;font-size: 14px; margin-left: 10px;}
 .cont .zz .zz_mb .mb { width: 230px; padding: 10px; border: 1px  solid #dddde2; float: left; margin-right: 30px; margin-top: 20px; line-height: 25px; font-size: 14px;}
 
 .cont .why_zz { width: 1000px; height: 290px; background-color: #f7f7fc; margin-top: 60px; border-top: 1px dashed #999; text-align: center;}

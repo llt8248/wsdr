@@ -17,7 +17,7 @@
 /*li中的内容*/
 .show_image #frame_bg li div { width: 100%; height: 100%; position:absolute;top:0;left:0; text-align: center;}
 .show_image #frame_bg li div .text1 { font-size: 36px; margin-top: 250px;}
-.show_image #frame_bg li div .text2 { font-size: 60px;font-weight: bold;}
+.show_image #frame_bg li div .text2 { font-size: 60px;font-weight: bold; margin-top: 200px;}
 .show_image #frame_bg li div .text3 { font-size: 18px; margin-top: 30px; color: #fff; line-height: 25px; width: 510px; height: 50px; overflow: hidden; margin: 20px auto;}
 .show_image #frame_bg li div p {color: #fff; font-family: Times New Roman, SimSun, STSong, serif; }
 /*图片轮播  小图片*/
@@ -38,14 +38,13 @@
 .new_activity .but { width: 200px; line-height: 40px; background-color: #FFA30C; float: right; margin-top: -40px; text-align: center;}
 .new_activity .but .icon { background-image: url(../images/small_icon.png);background-repeat:no-repeat;  background-position: 0px 0px; height:31px; width:31px; float: left; margin-top: 5px;margin-left: 40px;}
 .new_activity .but .text { color: #fff; float: left; margin-left: 10px;}
-
+.new_activity .but .text a { color: #fff;}
 
 /*最新商户活动 图片设置*/
 .new_activity .bg {max-width: 1280px; min-width: 985px; height: 402px; position: relative; margin-top: 40px;}
 .new_activity .bg img {z-index: 1; width: 100%; height: 100%; }
 .new_activity .bg .text_bg {height: 66px; background-color: #000; width: 100%; margin-top: -66px; z-index: 2; position: relative; filter:alpha(opacity=50); -moz-opacity:0.5; opacity:0.5;}
 .new_activity .bg .text { line-height: 66px; color: #fff; text-align: center; width: 100%; margin-top: -66px; z-index: 3; font-size: 20px; position: relative;}
-
 
 /*热门活动 标题*/
 .popular_activity { min-width: 985px; height: 100%; padding-top: 98px; padding-bottom: 100px; margin-left: auto; margin-right: auto; text-align: center; position: relative; background-color: #f0f0f5;}

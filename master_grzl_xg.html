@@ -1,14 +1,13 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="UTF-8">
-	<title>完善个人信息</title>
+	<title>商户首页</title>
 	<meta name="description" content="描述" />
 	<meta name="keywords" content="关键字" />
 	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/master_item_css/master_menu.css">
-	<link rel="stylesheet" href="css/master_item_css/master_grzl.css">
+	<link rel="stylesheet" href="css/merchant_item_css/merchant_menu.css">
+	<link rel="stylesheet" href="css/master_item_css/master_grzl_default.css">
 	<script language="javascript" src="scripts/jquery-1.11.3.min.js"></script>
 
 </head>
@@ -25,7 +24,6 @@
 				<ul>
 					<li>
 						<a href="index.html" target="_parent" >登录</a>
-					</li>
 					<li>
 						<a href="#" target="_parent">注册</a>
 					</li>
@@ -40,7 +38,7 @@
 	<!--列表-->
 	<div class="centre_bg">
 		<div class="centre">
-			<div class="centre_title">首页> <span id="title">授权绑定</span></div>
+			<div class="centre_title">首页> <span id="title">我的活动</span></div>
 			<div class="left_menu">
 				<div class="menu_item">
 					<span class="item_title">个人中心</span>
@@ -53,7 +51,7 @@
 				<div class="menu_item">
 					<span class="item_title">达人档案</span>
 					<ul>
-						<li class="page-sel"><a href="master_grzl.html" >个人信息</a></li>
+						<li class="page-sel"><a href="master_grzl_default.html" >个人资料</a></li>
 						<li><a href="master_zmt.html" >自媒体信息</a></li>
 						<li><a href="master_txsf.html" >身份头衔</a></li>
 						<li><a href="master_zcxq.html" >专长爱好</a></li>
@@ -87,25 +85,29 @@
 				</div>
 			</div>
 
-			<div class="master_grzl">
-				<div class="title">您还没有完善个人信息，完善个人信息以便商家更好地了解您</div>
+
+			<div class="merchant_shxx_bj">
+				<div class="title">个人基本信息</div>
 				<div class="user_xx">
-					<form name="reply"  method="post" >
-						<ul>
-							<li> <em>网名、昵称：</em><input type="text" name="user_nick" class="text1"  /></li>
-							<li> <em>真实姓名：</em><input type="text" name="user_name"  class="text1"  /></li>
-							<li><em>性别：</em><input name="sex" type="radio" value="0" class="text2" />女<input name="sex" type="radio" value="1" class="text2" />男<input name="sex" type="radio" value="3" class="text2" checked/>保密</li>
-							<li><em>身份证号：</em><input type="text" name="user_num" class="text1"  /></li>
-							<li><em>QQ：</em><input type="text" name="user_qq" class="text1"   /></li>
-							<li><em class="text4">个人简介：</em><textarea name="cont" cols="20" rows="5" style="" class="text3"></textarea></li>
-							<li><em></em><input type="submit" value="保存" class="but" ></li>
-						</ul>
-					</form>
+					<ul>
+						<li><em>网名、昵称:</em><span>萌小喵</span><a href="#">修改</a></li>
+						<li><em>真实姓名：</em><span>李小萌</span></li>
+						<li><em>性别：</em><span>女</span></li>
+						<li><em>身份证号：</em><span>4206021989090212</span></li>
+						<li><em>QQ：</em><span>65789081</span></li>
+						<li><em>网址：</em><span>www.12345.com</span></li>
+						<li><em class="text4">个人简介：</em>
+							<p>自由撰稿人,8家网站旅游论坛的版主,喜欢旅 行、摄影,搜集世界各地的明信片。喜欢分享 自己的一切旅游攻略与全国各地游览感受。</p>
+						</li>
+						<div class="clear"></div>
+						<li><em></em><a href="" class="btn">编辑</a></li>
+					</ul>
+
 				</div>
 			</div>
-
 			<div class="clear"></div>
 		</div>
+
 	</div>
 
 
@@ -181,11 +183,20 @@
 		<div class="text">粤ICP备14100486号-3/粤ICP备14100486号-2</div>
 	</div>
 
+	<script>
+		!function(){
 
-	<!--遮罩层-->
-	<div id="zz"></div>
+		//laydate.skin('molv');
 
-	<!-- 弹窗 -->
+		laydate({
+		   elem: '#hd_start'
+		})
 
+		laydate({
+		   elem: '#hd_end'
+		})
+
+		}();
+	</script>
 </body>
 </htmel>

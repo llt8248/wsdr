@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-.merchant_shxx_xg {  width: 770px; height: auto;  float: right; border: 1px solid #999; background-color: #fff; padding-bottom: 30px; }
+.merchant_shxx_xg {  width: 770px; height: auto;  float: right; border: 1px solid #d1d1d5; background-color: #fff; padding-bottom: 30px; min-height: 560px;}
 .merchant_shxx_xg .title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 14px;}
 .merchant_shxx_xg .user_xx { margin-left: 50px; margin-top: 50px;}
+.merchant_shxx_xg .user_xx a { color: #337ab7;}
 .merchant_shxx_xg .user_xx li { font-size: 14px; color:#404040; margin-bottom: 10px;}
 .merchant_shxx_xg .user_xx em { width: 105px; height: 35px; display: inline-block; text-align: right; color: #404040; font-size: 14px; margin-right: 30px;}
 .merchant_shxx_xg .user_xx span { display: inline-block; width: 260px;  }
