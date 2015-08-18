@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.master_zhxx_phone {  width: 770px; height: auto;  background-color: #fff; border: 1px solid #999; float: right; padding-bottom: 30px;}
+.master_zhxx_phone {  width: 770px; height: 638px;  background-color: #fff; border: 1px solid #d1d1d5; float: right; padding-bottom: 30px;}
 .master_zhxx_phone .page_cont { margin-left: 50px; margin-top: 50px; }
 .master_zhxx_phone .page_cont  em { color: #999;}
 .master_zhxx_phone .page_cont .item { margin-bottom: 30px;}

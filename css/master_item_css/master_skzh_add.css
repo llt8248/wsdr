@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.master_skzh_add { width: 770px; height: auto; background-color: #fff; border: 1px solid #999; float: right; padding-bottom: 30px; }
+.master_skzh_add { width: 770px; height: auto; background-color: #fff; border: 1px solid #d1d1d5; float: right; padding-bottom: 30px; }
 .master_skzh_add .page_title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 15px; width: 100%;}
 .master_skzh_add .hint { width: 710px; height: 50px; line-height: 50px; text-indent: 2em; background-color: #FFFDF6; margin-left: 30px; margin-right: 30px; border: 1px solid #FFA30C; margin-top: 20px; font-size:14px; }
 .master_skzh_add .yzzp_cont { width: 710px; margin-left: 30px; margin-right: 30px; margin-top: 50px; font-size: 14px;}
