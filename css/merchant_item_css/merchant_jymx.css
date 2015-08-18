@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.merchant_jymx { width: 770px; height: auto; float: right; border: 1px solid #d1d1d5; background-color: #fff; padding-bottom: 30px; }
+.merchant_jymx { width: 770px; height: auto; min-height: 560px; float: right; border: 1px solid #d1d1d5; background-color: #fff; padding-bottom: 30px; }
 .merchant_jymx .title { line-height: 50px; background-color: #f0f0f5; padding-left: 30px; color: #404040; font-size: 14px;}
 .jy_sj { width: 710px; height: 35px; margin-top: 40px; margin-left: 30px;}
 .jy_sj em { color: #999;}
