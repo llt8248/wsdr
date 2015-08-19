@@ -55,9 +55,9 @@
 /*热门活动 图片设置*/
 .popular_bg { width: 985px; height: auto; margin-top: 50px;   position: relative; margin-left: auto; margin-right: auto;}
 
-.popular_item { width: 430px; height: 410px; border: 1px solid #dfdfe4; background-color: #fff; padding:10px; margin:12px;  float: left; box-shadow: 0px 2px 3px #e5e5e9; cursor: pointer;}
+.popular_item { width: 400px; height: 410px; border: 1px solid #dfdfe4; background-color: #fff; padding:10px; margin:10px;  float: left; box-shadow: 0px 2px 3px #e5e5e9; cursor: pointer;}
 .popular_item:hover { box-shadow: 0px 7px 14px #ccccd0;}
-.popular_item .jd_bg img { width: 430px; height: 270px;}
+.popular_item .jd_bg img { width: 400px; height: 251px;}
 .popular_item .jd_log { margin-top: 10px;}
 .popular_text a { font-size: 15px; font-weight: bold; color: #333; transition: 0.3s;}
 .popular_text a:hover { color: #FFA30C;}

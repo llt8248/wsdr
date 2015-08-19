@@ -93,7 +93,7 @@ function size(){
         $(".people_profile").eq(2).css({'position':'absolute','top': 0,'left': 20});
         $(".people_profile").eq(3).css({'position':'absolute','top': 160,'left': 20});
 
-        $('.popular_bg').css('width', '985');
+        $('.popular_bg').css('width', '884');
 
 
 
@@ -104,7 +104,7 @@ function size(){
         $(".people_profile").eq(2).css({'position':'absolute','top': 0,'left': 100});
         $(".people_profile").eq(3).css({'position':'absolute','top': 160,'left': 60});
 
-        $('.popular_bg').css('width', '1440');
+        $('.popular_bg').css('width', '1330');
 
     }
 
