@@ -11,4 +11,17 @@
 .master_grzl .user_xx .text4 { float: left; }
 .master_grzl .user_xx .but { width: 215px; height: 40px; background-color: #FFA30C; border: 0px; color: #fff;  transition: 0.3s; font-size: 16px;  }
 .master_grzl .user_xx .but:hover { width: 215px; height: 40px; background-color: #ffbb0e; color: #fff; font-size: 16px; border: 0px; }
+.master_grzl .user_xx .user_xx_c { color: red;}
 .master_info { width: 400px;}
+
+/*流程图*/
+.flow { width: 646px; height: 80px; margin-top: 30px; margin-bottom: 30px; margin-left: auto; margin-right: auto; font-size: 14px; color: #404040;}
+.flow .flow_bg { width: 646px; height: 60px; }
+.flow .flow_bg .flow_bg_dq {  background-image: url(../../images/small_icon.png); background-repeat:no-repeat;  background-position: -0px -374px; height:40px; width:85px; float: left; }
+.flow .flow_bg .flow_bg_hx { background-image: url(../../images/small_icon.png); background-repeat:no-repeat;  background-position: -85px -415px; height:40px; width:561px; float: left;}
+.flow  .flow_text { width: 646px; height: 20px; }
+.flow  .flow_text div { float: left; width: 129px; text-align: center;}
+
+
+
+/**{border: 1px solid red;}*/

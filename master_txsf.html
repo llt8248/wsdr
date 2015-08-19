@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="css/master_item_css/master_menu.css">
 	<link rel="stylesheet" href="css/master_item_css/master_txsf.css">
 	<script language="javascript" src="scripts/jquery-1.11.3.min.js"></script>
-	<script language="javascript" type="text/javascript" src="scripts/laydate/laydate.js"></script>
 
 </head>
 
@@ -89,32 +88,48 @@
 
 			<div class="master_txsf">
 				<div class="title">选择您的头衔身份</div>
-				<form name="reply"  method="post" >
-					<div class="cont1">
-						<div><input name="Fruit" type="checkbox" value="" />携程旅行家 </div>
-						<div><input name="Fruit" type="checkbox" value="" />携程问答专家</div>
-						<div><input name="Fruit" type="checkbox" value="" />百度旅游达人</div>
-						<div><input name="Fruit" type="checkbox" value="" />百度行程咨询师</div>
-						<div><input name="Fruit" type="checkbox" value="" />艺龙旅行专家</div>
-						<div><input name="Fruit" type="checkbox" value="" />马峰窝旅行家</div>
-						<div><input name="Fruit" type="checkbox" value="" />新浪名博</div>
-						<div><input name="Fruit" type="checkbox" value="" />去哪儿聪明旅行家</div>
-						<div><input name="Fruit" type="checkbox" value="" />穷游网最佳作者</div>
-						<div><input name="Fruit" type="checkbox" value="" />酷讯旅游体验师</div>
-						<div><input name="Fruit" type="checkbox" value="" />驴妈妈旅游达人</div>
-						<div><input name="Fruit" type="checkbox" value="" />欣欣网旅行专家</div>
+				<!--流程图-->
+				<div class="flow">
+					<div class="flow_bg">
+						<div class="flow_bg_dq"></div>
+						<div class="flow_bg_hx"></div>
+					</div>
+					<div class="flow_text">
+						<div>完善个人信息</div>
+						<div>填写自媒体信息</div>
+						<div>头衔身份</div>
+						<div>专长兴趣</div>
+						<div>完成档案</div>
+					</div>
+				</div>
+				<div>
+					<form name="reply"  method="post" >
+						<div class="cont1">
+							<div><input name="Fruit" type="checkbox" value="" />携程旅行家 </div>
+							<div><input name="Fruit" type="checkbox" value="" />携程问答专家</div>
+							<div><input name="Fruit" type="checkbox" value="" />百度旅游达人</div>
+							<div><input name="Fruit" type="checkbox" value="" />百度行程咨询师</div>
+							<div><input name="Fruit" type="checkbox" value="" />艺龙旅行专家</div>
+							<div><input name="Fruit" type="checkbox" value="" />马峰窝旅行家</div>
+							<div><input name="Fruit" type="checkbox" value="" />新浪名博</div>
+							<div><input name="Fruit" type="checkbox" value="" />去哪儿聪明旅行家</div>
+							<div><input name="Fruit" type="checkbox" value="" />穷游网最佳作者</div>
+							<div><input name="Fruit" type="checkbox" value="" />酷讯旅游体验师</div>
+							<div><input name="Fruit" type="checkbox" value="" />驴妈妈旅游达人</div>
+							<div><input name="Fruit" type="checkbox" value="" />欣欣网旅行专家</div>
+							<div class="clear"></div>
+						</div>
+						<div class="cont2">
+							<div><input name="Fruit" type="checkbox" value="" />华盖创意签约摄影师</div>
+							<div><input name="Fruit" type="checkbox" value="" />CFP签约摄影师</div>
+							<div><input name="Fruit" type="checkbox" value="" />视图网签约摄影师</div>
+							<div><input name="Fruit" type="checkbox" value="" />中国摄影师协会会员</div>
+							<div><input name="Fruit" type="checkbox" value="" />新华社签约摄影师</div>
+						</div>
 						<div class="clear"></div>
-					</div>
-					<div class="cont2">
-						<div><input name="Fruit" type="checkbox" value="" />华盖创意签约摄影师</div>
-						<div><input name="Fruit" type="checkbox" value="" />CFP签约摄影师</div>
-						<div><input name="Fruit" type="checkbox" value="" />视图网签约摄影师</div>
-						<div><input name="Fruit" type="checkbox" value="" />中国摄影师协会会员</div>
-						<div><input name="Fruit" type="checkbox" value="" />新华社签约摄影师</div>
-					</div>
-					<div class="clear"></div>
-					<input type="submit" value="保存" class="but" >
-				</form>
+						<input type="submit" value="保存" class="but" >
+					</form>
+				</div>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -192,27 +207,5 @@
 		<div class="text">广州粉丝信息科技有限公司  © All Rights Reserved</div>
 		<div class="text">粤ICP备14100486号-3/粤ICP备14100486号-2</div>
 	</div>
-
-
-	<!--遮罩层-->
-	<div id="zz"></div>
-
-	<!-- 弹窗 -->
-
-	<script>
-		!function(){
-
-		//laydate.skin('molv');
-
-		laydate({
-		   elem: '#hd_start'
-		})
-
-		laydate({
-		   elem: '#hd_end'
-		})
-
-		}();
-	</script>
 </body>
 </htmel>
