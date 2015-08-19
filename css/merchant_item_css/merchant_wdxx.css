@@ -23,6 +23,7 @@
 .xxlb .box .w-table #content .col0 { width:90px;}
 .xxlb .box .w-table #content .col1 { width:350px;}
 .xxlb .box .w-table #content .col1 a { color: #404040;}
+.xxlb .box .w-table #content .col1 a:hover { text-decoration: underline;}
 .xxlb .box .w-table #content .col2 { width:160px;}
 .xxlb .box .w-table #content .col3 { width:107px;}
 .xxlb .box .w-table #content .col3 a { color: #404040;}
