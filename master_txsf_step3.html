@@ -7,7 +7,7 @@
 	<meta name="keywords" content="关键字" />
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/master_item_css/master_menu.css">
-	<link rel="stylesheet" href="css/master_item_css/master_txsf.css">
+	<link rel="stylesheet" href="css/master_item_css/master_txsf_step3.css">
 	<script language="javascript" src="scripts/jquery-1.11.3.min.js"></script>
 
 </head>
@@ -51,7 +51,7 @@
 					<ul>
 						<li><a href="master_grzl_default.html" >个人资料</a></li>
 						<li><a href="master_zmt.html" >自媒体信息</a></li>
-						<li class="page-sel"><a href="master_txsf.html" >身份头衔</a></li>
+						<li><a href="master_txsf.html" >身份头衔</a></li>
 						<li><a href="master_zcxq.html" >专长爱好</a></li>
 					</ul>
 					<div class="clear"></div>
@@ -85,9 +85,22 @@
 
 			<div class="master_txsf">
 				<div class="title">选择您的头衔身份</div>
-		
-				<div>
-					<form name="reply"  method="post" >
+				<!--流程图-->
+				<div class="flow">
+					<div class="flow_bg">
+						<div class="flow_bg_dq"></div>
+						<div class="flow_bg_hx"></div>
+					</div>
+					<div class="flow_text">
+						<div>完善个人信息</div>
+						<div>填写自媒体信息</div>
+						<div>头衔身份</div>
+						<div>专长兴趣</div>
+						<div>完成档案</div>
+					</div>
+				</div>
+				<div >
+
 						<div class="cont1">
 							<div><input name="Fruit" type="checkbox" value="" />携程旅行家 </div>
 							<div><input name="Fruit" type="checkbox" value="" />携程问答专家</div>
@@ -111,8 +124,9 @@
 							<div><input name="Fruit" type="checkbox" value="" />新华社签约摄影师</div>
 						</div>
 						<div class="clear"></div>
-						<input type="submit" value="保存" class="but" >
-					</form>
+						<div class="btn_next"><a href="master_zcxq_step4.html" class="but" >下一步</a></div>
+						
+
 				</div>
 			</div>
 			<div class="clear"></div>

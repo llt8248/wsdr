@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.master_zmt {  width: 770px; height: 600px;  background-color: #fff; border: 1px solid #d1d1d5; float: right; padding-bottom: 30px;  }
+.master_zmt .page_title { line-height: 50px; background-color: #f0f0f5; color: #404040; text-indent: 2em; font-size: 15px; width: 100%;}
+
+.master_zmt .zcxq_cont { margin-left: 30px; margin-top: 20px; width: 100%; height: 20px; }
+
+
+.master_zmt .yzzp_title  { margin-top: 55px; color: #404040; font-size: 15px; width: 770px; text-indent: 2em;}
+.master_zmt .yzzp_cont { margin-top: 30px; margin-left: 30px; width: 100%; }
+.master_zmt .yzzp_cont .addlink { width: 100%; height: 35px; }
+.master_zmt .yzzp_cont .addlink input { width: 555px; height: 35px; float: left;}
+.master_zmt .yzzp_cont .addlink a { display: inline-block; line-height: 33px; text-align: center; width: 110px; height: 33px; margin-left: 14px; border: 1px solid #999; color: #999; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
+
+.master_zmt .linkshow { margin-top: 20px; width: 100%;}
+.master_zmt .linkshow table { border: 1px solid #dcdcdc;}
+.master_zmt .linkshow tr { text-align: center; height: 40px; font-size: 14px;}
+.master_zmt .linkshow a { width: 125px; height: 40px; line-height: 40px; background-color: #fff; text-align: center; display: inline-block; font-size: 14px;}
+.master_zmt .linkshow a:hover { text-decoration: underline;}
+.master_zmt .linkshow .grzl { width: 555px; height: 40px;  background-color: #f0f0f5; font-size: 14px; color: #646464;}
+.master_zmt .linkshow .cz { width: 125px; background-color: #f0f0f5; font-size: 14px; color: #646464;}
+.master_zmt .btn_next { width: 770px; height: 40px; margin-top: 40px; text-align: center;}
+.master_zmt .btn_next a { width: 140px; height: 35px; color: #fff; line-height: 35px; text-align: center; display: inline-block; background-color: #FFA30C;}
+
+/*流程图*/
+.flow { width: 646px; height: 80px; margin-top: 30px; margin-bottom: 30px; margin-left: auto; margin-right: auto; font-size: 14px; color: #404040;}
+.flow .flow_bg { width: 646px; height: 60px; }
+.flow .flow_bg .flow_bg_dq {  background-image: url(../../images/small_icon.png); background-repeat:no-repeat;  background-position: -0px -374px; height:40px; width:214px; float: left; }
+.flow .flow_bg .flow_bg_hx { background-image: url(../../images/small_icon.png); background-repeat:no-repeat;  background-position: -214px -415px; height:40px; width:432px; float: left;}
+.flow  .flow_text { width: 646px; height: 20px; }
+.flow  .flow_text div { float: left; width: 129px; text-align: center;}
+/*
+*{ border: 1px solid red;}*/

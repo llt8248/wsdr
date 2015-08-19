@@ -1,13 +1,14 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="UTF-8">
-	<title>我是达人</title>
+	<title>完善个人信息</title>
 	<meta name="description" content="描述" />
 	<meta name="keywords" content="关键字" />
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/master_item_css/master_menu.css">
-	<link rel="stylesheet" href="css/master_item_css/master_txsf.css">
+	<link rel="stylesheet" href="css/master_item_css/master_grzl_step1.css">
 	<script language="javascript" src="scripts/jquery-1.11.3.min.js"></script>
 
 </head>
@@ -39,7 +40,7 @@
 	<!--列表-->
 	<div class="centre_bg">
 		<div class="centre">
-			<div class="centre_title">首页> <span id="title">身份头衔</span></div>
+			<div class="centre_title">首页> <span id="title">授权绑定</span></div>
 			<div class="left_menu">
 				<div class="menu_item">
 					<span class="item_index"><a href="master.html">我的主页</a></span>
@@ -49,9 +50,9 @@
 				<div class="menu_item">
 					<span class="item_title">达人档案</span>
 					<ul>
-						<li><a href="master_grzl_default.html" >个人资料</a></li>
+						<li><a href="master_grzl.html" >个人信息</a></li>
 						<li><a href="master_zmt.html" >自媒体信息</a></li>
-						<li class="page-sel"><a href="master_txsf.html" >身份头衔</a></li>
+						<li><a href="master_txsf.html" >身份头衔</a></li>
 						<li><a href="master_zcxq.html" >专长爱好</a></li>
 					</ul>
 					<div class="clear"></div>
@@ -83,38 +84,36 @@
 				</div>
 			</div>
 
-			<div class="master_txsf">
-				<div class="title">选择您的头衔身份</div>
-		
-				<div>
-					<form name="reply"  method="post" >
-						<div class="cont1">
-							<div><input name="Fruit" type="checkbox" value="" />携程旅行家 </div>
-							<div><input name="Fruit" type="checkbox" value="" />携程问答专家</div>
-							<div><input name="Fruit" type="checkbox" value="" />百度旅游达人</div>
-							<div><input name="Fruit" type="checkbox" value="" />百度行程咨询师</div>
-							<div><input name="Fruit" type="checkbox" value="" />艺龙旅行专家</div>
-							<div><input name="Fruit" type="checkbox" value="" />马峰窝旅行家</div>
-							<div><input name="Fruit" type="checkbox" value="" />新浪名博</div>
-							<div><input name="Fruit" type="checkbox" value="" />去哪儿聪明旅行家</div>
-							<div><input name="Fruit" type="checkbox" value="" />穷游网最佳作者</div>
-							<div><input name="Fruit" type="checkbox" value="" />酷讯旅游体验师</div>
-							<div><input name="Fruit" type="checkbox" value="" />驴妈妈旅游达人</div>
-							<div><input name="Fruit" type="checkbox" value="" />欣欣网旅行专家</div>
-							<div class="clear"></div>
-						</div>
-						<div class="cont2">
-							<div><input name="Fruit" type="checkbox" value="" />华盖创意签约摄影师</div>
-							<div><input name="Fruit" type="checkbox" value="" />CFP签约摄影师</div>
-							<div><input name="Fruit" type="checkbox" value="" />视图网签约摄影师</div>
-							<div><input name="Fruit" type="checkbox" value="" />中国摄影师协会会员</div>
-							<div><input name="Fruit" type="checkbox" value="" />新华社签约摄影师</div>
-						</div>
-						<div class="clear"></div>
-						<input type="submit" value="保存" class="but" >
-					</form>
+			<div class="master_grzl">
+				<div class="title">建立您的达人档案，完成后您就可以报名商家的体验活动哦！</div>
+				<!--流程图-->
+				<div class="flow">
+					<div class="flow_bg">
+						<div class="flow_bg_dq"></div>
+						<div class="flow_bg_hx"></div>
+					</div>
+					<div class="flow_text">
+						<div>完善个人信息</div>
+						<div>填写自媒体信息</div>
+						<div>头衔身份</div>
+						<div>专长兴趣</div>
+						<div>完成档案</div>
+					</div>
+				</div>
+				<div class="user_xx">
+						<ul>
+							<li><em><span class="user_xx_c">* </span>网名、昵称：</em><input type="text" name="user_nick" class="text1"  /></li>
+							<li><em><span class="user_xx_c">* </span>真实姓名：</em><input type="text" name="user_name"  class="text1"  /></li>
+							<li><em><span class="user_xx_c">* </span>性别：</em><input name="sex" type="radio" value="0" class="text2" />女<input name="sex" type="radio" value="1" class="text2" />男<input name="sex" type="radio" value="3" class="text2" checked/>保密</li>
+							<li><em><span class="user_xx_c">* </span>身份证号：</em><input type="text" name="user_num" class="text1"  /></li>
+							<li><em>QQ：</em><input type="text" name="user_qq" class="text1"   /></li>
+							<li><em class="text4"><span class="user_xx_c">* </span>个人简介：</em><textarea name="cont" cols="20" rows="5" style="" class="text3"></textarea></li>
+							<li><em></em><a href="master_zmt_step2.html" class="but" >下一步</a></li>
+						</ul>
+
 				</div>
 			</div>
+
 			<div class="clear"></div>
 		</div>
 	</div>
@@ -191,5 +190,12 @@
 		<div class="text">广州粉丝信息科技有限公司  © All Rights Reserved</div>
 		<div class="text">粤ICP备14100486号-3/粤ICP备14100486号-2</div>
 	</div>
+
+
+	<!--遮罩层-->
+	<div id="zz"></div>
+
+	<!-- 弹窗 -->
+
 </body>
 </htmel>
